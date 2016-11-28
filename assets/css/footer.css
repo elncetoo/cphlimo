@@ -1,0 +1,25 @@
+@charset "utf-8";
+.footer {
+background-color: black;
+align-content: center;
+text-align:center;
+height: 50px;
+padding: 0.5%;
+position: fixed; 
+bottom: 0;
+left: 0;
+right: 0;
+height: 50px;
+}
+
+p { 
+color: white;
+font-family: verdana;
+font-size: 13px;
+}
+
+.footer li:hover a {
+    color: #fff;
+   
+}
+

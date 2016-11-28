@@ -1,26 +1,6 @@
-<style>
-#footer {
-background-color: black;
-align-content: center;
-text-align:center;
-height: 50px;
-padding: 0.5%;
-position: fixed; 
-bottom: 0;
-left: 0;
-right: 0;
-height: 50px;
-}
-
-p { 
-color: white;
-font-family: verdana;
-font-size: 13px;
-}
-	
-</style>
-<div id="footer">
-<p>Student Project <a style="text-decoration:none;" href="www.cphbusiness.dk">CPH Business</a> &copy; 2016</p>
+<link rel="stylesheet" href="assets/css/footer.css">
+<div class="footer">
+<p>Student Project <a style="text-decoration:none; color: #6b6b6b;" href="www.cphbusiness.dk">CPH Business</a> &copy; 2016</p>
 </div>
 </body>
 </html>
