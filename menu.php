@@ -1,8 +1,8 @@
-<link rel="stylesheet" href="assets/css/menu.css">
+<link rel="stylesheet" href="assets/css/style-menu.css">
 <?php
 $curpage = basename ($_SERVER['PHP_SELF']);
 ?>
-
+	<div class="nav" >
     <div class="css_menu_two_line">
         <ul class="two_line_menu">
             <li <?php if($curpage == 'index.php') {echo 'class="active"'; } ?>><a href="index.php">Home</a>
@@ -54,6 +54,6 @@ $curpage = basename ($_SERVER['PHP_SELF']);
             
         </ul>
     </div>
-  
+   </div>
   
  

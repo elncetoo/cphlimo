@@ -1,7 +1,6 @@
 <!doctype html>
 <html>
 <head>
-
 <meta charset="utf-8">
 <title>Copenhagen Limousine Service</title>
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
