@@ -1,71 +1,40 @@
 @import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
-* {
-  margin: 0;
-  padding: 0;
-  outline: none;
+/* CSSTerm.com CSS Horizontal menu with images */
+
+.css_menu_two_line {
+	width:100%;
+	overflow:hidden;
 }
 
-#main-nav {
-  background: #000000;
- 
-  float: left;
-  width: 900px;
-  z-index: 1000;
+.two_line_menu {
+    position: relative;
+    margin-bottom: 40px;
+    background:#77f url('img_bg.gif') repeat-x;
 }
-#main-nav ul {
-  font-family: 'PT Sans', sans-serif;
-  font-size: .9em;
-  font-weight: bold;
-  list-style: none;
+
+.two_line_menu a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    padding:10px;
 }
-#main-nav ul li {
-  border-left: 1px solid #727272;
-  float: left;
+
+.two_line_menu li:hover a {
+    color: #fff;
+    background: #aaf;
 }
-#main-nav ul li:first-child {
-  border: none;
+
+.two_line_menu li { display: inline-block; }
+
+.two_line_menu li ul { display: none; }
+
+.two_line_menu li:hover ul {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background: #aaf;
+    top: 38px;
 }
-#main-nav ul li a {
-  color: #fff;
-  display: block;
-  padding: 20px;
-  position: relative;
-  width: 139px;
-  text-decoration: none;
-  text-shadow: 0 1px 1px #1E1E1E;
-}
-#main-nav ul li a span.drop-down {
-  background: url(images/down-arrow_green_10x7.png) no-repeat;
-  height: 7px;
-  position: absolute;
-  right: 20px;
-  top: 24px;
-  width: 10px;
-}
-#main-nav ul li:hover {
-  background: #353535;
-}
-/* First Level drop-down */
-#main-nav ul li ul {
-  display: none;
-}
-#main-nav ul li:hover ul {
-  background: url(images/trans_green-70.png);
-  display: block;
-  font-size: .9em;
-  font-weight: normal;
-  padding: 10px;
-  position: absolute;
-}
-#main-nav ul li ul li {
-  float: none;
-  display: block;
-  border-left: none;
-  position: relative;
-}
-#main-nav ul li ul li a {
-  width: 170px;
-  padding: 15px 10px;
-  border-top: dotted 1px #353535;
-  color: #fff;
-}
+
+.two_line_menu li ul li:hover a { color: #000; }
