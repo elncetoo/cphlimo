@@ -18,7 +18,7 @@ $curpage = basename ($_SERVER['PHP_SELF']);
             </li>
             
             <li <?php if($curpage == 'services.php') {echo 'class="active"'; } ?>><a href="services.php">Services</a>
-           		<ul>
+           		<!--<ul>
                     <li><a href="#">Road Show</a></li>
                     <li><a href="#">Transfer Services</a></li>
                     <li><a href="#">Pendler Services</a></li>
@@ -28,7 +28,7 @@ $curpage = basename ($_SERVER['PHP_SELF']);
                     <li><a href="#">Security &amp; Bodyguards</a></li>
                     <li><a href="#">Use Your Transport Time</a></li>
                     <li><a href="#">Sightseeing</a></li>
-            	</ul> 
+            	</ul>--> 
             
            </li>
             

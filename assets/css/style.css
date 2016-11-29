@@ -1,9 +1,10 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400|Raleway:200,300,400,500,700,900);
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
 
 body{
 	margin:0px;
 	padding:0px;
-	font-family: 'PT Sans', sans-serif;
+	font-family: "Raleway", sans-serif;
 	text-align:center;
 	background-color:#000000;
 }
@@ -53,6 +54,6 @@ input[type="submit"]:hover{
 }
 
 h1 {
-	color:#FFFFFF;
-	
+	color:#7e7d7d;
+	font-family: "Raleway", sans-serif;
 	}
