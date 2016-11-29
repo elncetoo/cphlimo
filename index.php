@@ -71,13 +71,13 @@
         </br>
         
 		<div>
-        <figure class="snip1533">
+       <figure class="snip1533">
           <figcaption>
             <blockquote>
               <p style="color:#676767;">“Probably the most professional limo service I have ever used<br>
                – truly classy cars”</p>
             </blockquote>
-             <h4>Casper Hach, first-time client</h4>
+             <h5>Casper Hach, first-time client</h5>
           </figcaption>
         </figure>
         <figure class="snip1533">
@@ -87,7 +87,7 @@
                chauffeurs, limo service <br>
                in a league of it’s own.”</p>
             </blockquote>
-              <h4>Poul Bjørn, creative director</h4>
+              <h5>Poul Bjørn, creative director</h5>
           </figcaption>
         </figure>
 		</div><!--end testimonials-->
