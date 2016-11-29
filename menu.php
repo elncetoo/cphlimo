@@ -3,7 +3,7 @@
 $curpage = basename ($_SERVER['PHP_SELF']);
 ?>
 	<div class="nav" style="background-color: #000000;" >
-    <div class="css_menu_two_line">
+    <div class="css_menu_two_line"> <br>
         <ul class="two_line_menu">
             <li <?php if($curpage == 'index.php') {echo 'class="active"'; } ?>><a href="index.php">Home</a>
                
