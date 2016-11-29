@@ -28,8 +28,6 @@
                   <div class="section-title">
                   		
                         <br>
-                        <br>
-                        <br>
 						<h2>Our Services</h2>
 						<br>
                         <br>

@@ -11,24 +11,24 @@ $curpage = basename ($_SERVER['PHP_SELF']);
             
             <li <?php if($curpage == 'about.php') {echo 'class="active"'; } ?>><a href="about.php" >About<span class="drop-down"></a>
             	<ul>
-                    <li><a href="#">The Company</a></li>
-                    <li><a href="#">Our History</a></li>
-                    <li><a href="#">Archive</a></li>
+                    <li><a href="about.php">The Company</a></li>
+                    <li><a href="about.php">Our History</a></li>
+                    <li><a href="about.php">Archive</a></li>
            		</ul>
             </li>
             
             <li <?php if($curpage == 'services.php') {echo 'class="active"'; } ?>><a href="services.php">Services</a>
-           		<!--<ul>
-                    <li><a href="#">Road Show</a></li>
-                    <li><a href="#">Transfer Services</a></li>
-                    <li><a href="#">Pendler Services</a></li>
-                    <li><a href="#">Crew Transportation</a></li>
-                    <li><a href="#">Worldwide Limousine Services</a></li>
-                    <li><a href="#">Guardian Angels</a></li>
-                    <li><a href="#">Security &amp; Bodyguards</a></li>
-                    <li><a href="#">Use Your Transport Time</a></li>
-                    <li><a href="#">Sightseeing</a></li>
-            	</ul>--> 
+         		 <ul>
+                    <li><a href="services.php">Road Show</a></li>
+                    <li><a href="services.php">Transfer Services</a></li>
+                    <li><a href="services.php">Pendler Services</a></li>
+                    <li><a href="services.php">Crew Transportation</a></li>
+                    <li><a href="services.php">Worldwide Limousine Services</a></li>
+                    <li><a href="services.php">Guardian Angels</a></li>
+                    <li><a href="services.php">Security &amp; Bodyguards</a></li>
+                    <li><a href="services.php">Use Your Transport Time</a></li>
+                    <li><a href="services.php">Sightseeing</a></li>
+            	</ul>
             
            </li>
             
