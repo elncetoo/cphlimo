@@ -3,7 +3,7 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
 .snip1533 {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-  color: #fff;
+  color: #CFCFCF ;
   display: inline-block;
   font-family: 'PT Sans', sans-serif;
   font-size: 16px;
@@ -13,10 +13,10 @@
   position: relative;
   text-align: center;
   width: 100%;
-  background-color: #ffffff;
+  background-color: #CFCFCF;
   background-image: url(../../img/quote-caption.png);
   border-radius: 5px;
-  border-top: 5px solid #fff;
+  border-top: 5px solid #AFAFAF;
 }
 
 .snip1533 *,
@@ -37,7 +37,7 @@
   background-color: #000;
   border-radius: 50%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-  color: #fff;
+  color: #e7e7e7;
   content: "\f10e";
   font-family: 'FontAwesome';
   font-size: 32px;
@@ -61,6 +61,7 @@
   font-weight: 200;
   margin: 0;
   opacity: 0.5;
+  color: #fff;
 }
 
 .snip1533 blockquote {
