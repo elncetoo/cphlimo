@@ -46,8 +46,8 @@ $curpage = basename ($_SERVER['PHP_SELF']);
             
             <li <?php if($curpage == 'news.php') {echo 'class="active"'; } ?>><a href="news.php">News</a>
             <ul>
-                <li><a href="#">Articles</a></li>
-                <li><a href="#">Our App</a></li>
+                <li><a href="news.php">Articles</a></li>
+                <li><a href="app.php">Our App</a></li>
             </ul>
             </li> 
             <li <?php if($curpage == 'contact.php') {echo 'class="active"'; } ?>><a href="contact.php">Contact</a></li>
