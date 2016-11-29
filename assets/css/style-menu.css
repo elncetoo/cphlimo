@@ -3,11 +3,13 @@
 .nav {
 	background-color:#000;	
 	
+	
 }
 .css_menu_two_line {
 	width:100%;
 	overflow:hidden;
 	float:left;
+	align-content: left;
 	
 }
 

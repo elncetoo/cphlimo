@@ -3,7 +3,7 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
 .snip1533 {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-  color: #CFCFCF ;
+  color: #242424;
   display: inline-block;
   font-family: 'PT Sans', sans-serif;
   font-size: 16px;
@@ -16,7 +16,7 @@
   background-color: #CFCFCF;
   background-image: url(../../img/quote-caption.png);
   border-radius: 5px;
-  border-top: 5px solid #AFAFAF;
+  border-top: 5px solid #CFCFCF;
 }
 
 .snip1533 *,
