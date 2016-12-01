@@ -12,7 +12,7 @@
 		<!-- Bootstrap core CSS -->
 		<link href="assets/css/bootstrap.min.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+		
 		<!-- Custom styles  -->
 		<link href="assets/css/grid-style.css" rel="stylesheet">
 	</head>
@@ -34,10 +34,11 @@
 						<br>
                         <br>
                         <br>
-  <p class="pull-left" style="color:fff;">Make sure you come back and visit our website for news and special seasonal offers. We continuously 
+  <p style="padding:3%;">Make sure you come back and visit our website for news and special seasonal offers. We continuously 
                         strive to come up with improved services and products, and occasionally we are able to present special offers 
-						that should suit and accommodate many needs and wishes. Be sure to visit us every now and again. </p>
-  <p class="pull-left" style="color:fff;">Should you indeed have suggestions for services, products or offers you would like to see in future,
+						that should suit and accommodate many needs and wishes.</p>
+                        <p> Be sure to visit us every now and again. </p>
+  <p style="padding:3%;">Should you indeed have suggestions for services, products or offers you would like to see in future,
    						please do not hesitate to contact us by sending your suggestions to our emal.</p>
                    </div>
                                   
@@ -95,7 +96,7 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title" id="Modal-label-1">Sightseeing tour suggestionsY</h4>
+						<h4 class="modal-title" id="Modal-label-1">Sightseeing tour suggestions</h4>
 					</div>
 					<div class="modal-body">
 						<img src="http://www.btktours.com/ficherosweb/EU1526_03-12-2015_copenhagen-.jpg" alt="img01" class="img-responsive" style="width: 100%;"/>

@@ -7,8 +7,8 @@
 
 body {
 	margin: 0px;
-	font-family: 'PT Sans', sans-serif;
-	}
+	font-family: "Raleway", Sans-serif;
+}
 
 h1,
 h2,
@@ -22,13 +22,17 @@ h6 {
 	color: #7e7d7d;
 }
 
+.carh {
+	color: #ece9e9;
+}
+
 p {
-	font-family: 'PT Sans', sans-serif;
-	font-size: 13px;
-	font-weight: 50;
-	line-height: 13px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 17px;
+	font-weight: 300;
+	line-height: 28px;
 	letter-spacing: 0.2px;
-	color: #e3e3e3;
+	color: #252525;
 }
 
 a:hover, a:focus, a:active, a.active {
@@ -40,7 +44,7 @@ a, a:hover, a:focus, a:active, a.active {
 
 ::selection {
     text-shadow: none;
-    background: #fed136;
+    background: #1D3868;
 }
 
 .list-group a:hover, a:focus, a:active, a.active {
@@ -156,20 +160,20 @@ figure.effect-bubba figcaption::after {
 	left: 30px;
 	content: '';
 	opacity: 0;
-	-webkit-transition: opacity 5s, -webkit-transform 0.35s;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 }
 
 figure.effect-bubba figcaption::before {
-	border-top: 1px solid #fff;
-	border-bottom: 1px solid #fff;
+	border-top: 1px solid #1D3868;
+	border-bottom: 1px solid #1D3868;
 	-webkit-transform: scale(0,1);
 	transform: scale(0,1);
 }
 
 figure.effect-bubba figcaption::after {
-	border-right: 1px solid #fff;
-	border-left: 1px solid #fff;
+	border-right: 1px solid #1D3868;
+	border-left: 1px solid #1D3868;
 	-webkit-transform: scale(1,0);
 	transform: scale(1,0);
 }
@@ -179,7 +183,7 @@ figure.effect-bubba h2 {
     font-size: 15px;
     font-weight: 700;
     text-transform: uppercase;
-	padding-top: 30%;
+	padding-top: 27%;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
 	-webkit-transform: translate3d(0,-20px,0);
@@ -281,7 +285,7 @@ font-size: 11px;
 }
 
 .modal-works span {
-	background-color: #FED136;
+	background-color: #1D3868;
     margin-right: 15px;
     padding: 5px 10px;
 }
@@ -360,7 +364,7 @@ font-size: 11px;
     transition: 1s;
 }
 #back-top a:hover {
-    background: #fed136;
+    background: #1D3868;
 }
 /* arrow icon (span tag) */
 #back-top i {
@@ -390,12 +394,3 @@ and (max-width : 480px) {
 .carextras {
 	margin-right: 3%;
 }
-
-.carh {
-	color: #ece9e9;
-}
-
-
-.gmap {
-	saturation:-50%;
-	}
