@@ -55,25 +55,26 @@
                	<br>
                 <div class="col-lg-6 text-left" style="background-color:#333; padding-left: 5%;">
                     <div class="row">
-                        <div class="formrow">
-                            <h2>CONTACT US:</h2>
+                     <h2>CONTACT US:</h2>
                             <br>
                             <h4>Request information, book a car, or plan your trip!</h4>
+                        <div class="formrow">
+                           
                             	<br>
                                 <form method="POST" class="form-horizontal" name="contactform" action="contact-form-handler.php"> 
                                 <h5>
                                 
-                                <input type="text" name="name" id="name" placeholder="Name:" required="true" size="35" style="height: 30px;">
+                                <input type="text" name="name" id="name" placeholder="Name:" required="true" size="35" style="height: 30px; border: 2px solid white; border-radius: 4px;">
                                 </h5>
                                 <h5>
                                
-                                <input type="text" name="email" id="email" placeholder="E-mail:" required="true" size="35" style="height: 30px;"><br>
+                                <input type="text" name="email" id="email" placeholder="E-mail:" required="true" size="35" style="height: 30px; border: 2px solid white; border-radius: 4px;"><br>
                                 </h5>
                                 <h5>
                                 
-                                <textarea name="message" id="message" placeholder="Write Your Message Here:" required="true" rows="4" cols="34"  ></textarea>
+                                <textarea name="message" id="message" placeholder="Write Your Message Here:" required="true" rows="4" cols="34" style="border: 2px solid white; border-radius: 4px;"></textarea>
                                 </h5>
-                                <input type="submit" value="Submit" class="button button5" style=" background-color: #555555; color: white; border: 2px solid white; width:100%; height: 30px; "><br><br><br>
+                                <input type="submit" value="Submit" class="button button5" style=" background-color: #555555; color: white; border: 2px solid white; border-radius: 4px; width:107%; height: 30px; "><br><br><br>
                                 </form>
                           </div>
                       </div><!-- /row -->
