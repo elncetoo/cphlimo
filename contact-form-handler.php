@@ -1,6 +1,6 @@
 <?php 
 $errors = '';
-$myemail = 'ellincetoo@gmail.com';
+$myemail = 'svilena_koleva@yahoo.com';
 if(empty($_POST['name'])  || 
    empty($_POST['email']) || 
    empty($_POST['message']))
@@ -112,7 +112,7 @@ if( empty($errors))
                                     </h5>
                                     <h5>
                                     
-                                    <textarea name="message" id="message" placeholder="Write Your Message Here:" required="true" rows="4" cols="34" style="border: 2px solid white; border-radius: 4px;"></textarea>
+                                    <textarea name="message" id="message" placeholder="Write Your Message Here:" required rows="4" cols="34" style="border: 2px solid white; border-radius: 4px;"></textarea>
                                     </h5>
                                     <input type="submit" value="Submit" class="button button5" style=" background-color: #555555; color: white; border: 2px solid white; border-radius: 4px; width:107%; height: 30px; "><br><br><br>
                                     </form>

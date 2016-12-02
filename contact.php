@@ -35,7 +35,7 @@
                   		<br>
                         <br>
                         <br>
-						<h2>Where to find us..</h2>
+						<h2 style="padding-left:5%;">Where to find us..</h2>
 						<br>
                         <br>
                         <br>
@@ -48,38 +48,67 @@
                 </div>
                <!--form start-->   
                 <br>
+                <br>
+                <div class="row" style="background-color:#333333;">
                 <div class="col-lg-6 text-left" style="background-color:#333; padding-left: 5%;">
                     <div class="row">
-                        
-                    </div>     
-               	<br>
-                <div class="col-lg-6 text-left" style="background-color:#333; padding-left: 5%;">
-                    <div class="row">
+                        <br>
                      <h2>CONTACT US:</h2>
                             <br>
-                            <h4>Request information, book a car, or plan your trip!</h4>
+                            <h4>If you have any questions, suggestions <br />
+                                or comments, please feel free to send us<br />
+                                an e-mail via the form below.</h4>
                         <div class="formrow">
                            
                             	<br>
-                                <form method="POST" class="form-horizontal" name="contactform" action="contact-form-handler.php"> 
+                                <form name="contactform" method="POST" action="contact-form-handler.php" class="form-horizontal" > 
                                 <h5>
                                 
-                                <input type="text" name="name" id="name" placeholder="Name:" required="true" size="35" style="height: 30px; border: 2px solid white; border-radius: 4px;">
+                                <input type="text" name="name" id="name" placeholder="Name:" required="true" size="35" style=" background-color: #242424; height: 30px; border: 2px solid #7A7A7A; border-radius: 1px; width:54%;">
                                 </h5>
                                 <h5>
                                
-                                <input type="text" name="email" id="email" placeholder="E-mail:" required="true" size="35" style="height: 30px; border: 2px solid white; border-radius: 4px;"><br>
+                                <input type="text" name="email" id="email" placeholder="E-mail:" required="true" maxlength="80" size="35" style="background-color: #242424; height: 30px; border: 2px solid #7A7A7A; border-radius: 1px; width:54%;"><br>
                                 </h5>
                                 <h5>
                                 
-                                <textarea name="message" id="message" placeholder="Write Your Message Here:" required="true" rows="4" cols="34" style="border: 2px solid white; border-radius: 4px;"></textarea>
+                                <textarea name="message" id="message" placeholder="Write Your Message Here:" required rows="4" cols="34" style="background-color: #242424; border: 2px solid #7A7A7A; border-radius: 1px; width:54%;"></textarea>
                                 </h5>
-                                <input type="submit" value="Submit" class="button button5" style=" background-color: #555555; color: white; border: 2px solid white; border-radius: 4px; width:107%; height: 30px; "><br><br><br>
+                                <div style="padding-left:none;">
+                                <div class="g-recaptcha" data-sitekey="6Ldwrg0UAAAAAMbRYVzV1OB_gTc71kk1_cNoK-5v" ></div></div><br>
+                                <input type="submit" value="Submit" class="button button5" style=" background-color: #555555; color: white; border: 2px solid white; border-radius: 1px; width:54%; height: 30px; "><br><br><br>
+                                
                                 </form>
                           </div>
                       </div><!-- /row -->
                 </div> <!--form end--> 
-                            </div> <!--row end--> 
+                            <div class="col-lg-6 text-left" style="background-color:#333; padding-left: 5%;">
+                    <div class="col">
+                        <div class="row">
+                            <br>
+                     	 <h2>ADDRESS:</h2>
+                            <br>
+                                <h4 style="padding-top:none;">Bådehavnsgade 40</h4> 
+                                     <h4 style="padding-top:none;">2450 København SV</h4> 
+                                     <h4 style="padding-top:none;">Tel.: +45 70 260 601</h4> 
+                                     <h4 style="padding-top:none;">Fax.: +45 33 150 634</h4> 
+                                </h4>
+                                </div>
+                                <br><br><br><br>
+                                   <div style="padding-left:none;">
+                                    <br>
+                                    <br><br>
+                                    <img src="img/social/no-circle/fb.png" alt="fb"><a href="https://www.facebook.com/Copenhagen-Limousine-Service-60297880809/?fref=ts" style="padding-right:1%;"></a>
+                                    <img src="img/social/no-circle/g+.png" alt="fb"><a href="#" style="padding-right:1%;"></a>
+                                    <img src="img/social/no-circle/in.png" alt="fb"><a href="#" style="padding-right:1%;"></a>
+                                    <img src="img/social/no-circle/lin.png" alt="fb"><a href="#" style="padding-right:1%;"></a>
+                                    <img src="img/social/no-circle/tw.png" alt="fb"><a href="#" style="padding-right:1%;"></a>
+                                <br><br><br><br><br><br><br>
+                                </div>
+                    </div> 
+                            </div> <!--col end--> 
+                            </div> 
+                          </div><!--row end-->
                          </div> <!--container end--> 
    		 <?php require 'footer.php';?>
          <br>
@@ -93,6 +122,6 @@
 		<script src="assets/js/SmoothScroll.js"></script>
 		<script src="assets/js/theme-scripts.js"></script>
         <script src="scripts/gen_validatorv31.js" type="text/javascript" language="JavaScript" ></script>
-    
+    	<script src='https://www.google.com/recaptcha/api.js'></script>
     
 	
