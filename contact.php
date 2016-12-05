@@ -75,7 +75,7 @@
                                 <textarea name="message" id="message" placeholder="Write Your Message Here:" required rows="4" cols="34" style="background-color: #242424; border: 2px solid #7A7A7A; border-radius: 1px; width:57%;"></textarea>
                                 </h5>
                                 <div style="padding-left:none;">
-                                <div class="g-recaptcha" data-sitekey="6Ldwrg0UAAAAAMbRYVzV1OB_gTc71kk1_cNoK-5v" ></div></div><br>
+                                <div class="g-recaptcha" data-sitekey="6Ldwrg0UAAAAAMbRYVzV1OB_gTc71kk1_cNoK-5v" style="width:57%;";></div></div><br>
                                 <input type="submit" value="Submit" class="button button5" style=" background-color: #555555; color: white; border: 2px solid white; border-radius: 1px; width:57%; height: 30px; "><br><br><br>
                                 
                                 </form>

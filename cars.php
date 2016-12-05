@@ -12,7 +12,6 @@
 		<!-- Bootstrap core CSS -->
 		<link href="assets/css/bootstrap.min.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 		<!-- Custom styles  -->
 		<link href="assets/css/grid-style.css" rel="stylesheet">
 	</head>

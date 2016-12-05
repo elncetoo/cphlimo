@@ -30,11 +30,11 @@
                         <br>
                         <br>
                         <br>
-						<h2>News</h2>
+						<h2 >News</h2>
 						<br>
                         <br>
                         <br>
-  <p style="padding:3%;">Make sure you come back and visit our website for news and special seasonal offers. We continuously 
+  <p  style="padding:3%;">Make sure you come back and visit our website for news and special seasonal offers. We continuously 
                         strive to come up with improved services and products, and occasionally we are able to present special offers 
 						that should suit and accommodate many needs and wishes.</p>
                         <p> Be sure to visit us every now and again. </p>
