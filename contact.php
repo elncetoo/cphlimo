@@ -15,7 +15,8 @@
 				<!-- Custom styles  -->
 		<link href="assets/css/grid-style.css" rel="stylesheet">
         <link href="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.0/css/bootstrapValidator.min.css" rel="stylesheet prefetch">
-         <style>
+         <script src="https://www.google.com/recaptcha/api.js"></script>
+		 <style>
 		 #map {
 		 -webkit-filter: grayscale(100%); /* Safari */
     	 filter: grayscale(100%);
@@ -68,7 +69,7 @@
                                 </h5>
                                 <h5>
                                
-                                <input type="text" name="email" id="email" placeholder="E-mail:" required="true" maxlength="80" size="35" style="background-color: #242424; height: 30px; border: 2px solid #7A7A7A; border-radius: 1px; width:57%;"><br>
+                                <input type="email" name="email" id="email" placeholder="E-mail:" required="true" maxlength="80" size="35" style="background-color: #242424; height: 30px; border: 2px solid #7A7A7A; border-radius: 1px; width:57%;"><br>
                                 </h5>
                                 <h5>
                                 
@@ -76,13 +77,13 @@
                                 </h5>
                                 <div style="padding-left:none;">
                                 <div class="g-recaptcha" data-sitekey="6Ldwrg0UAAAAAMbRYVzV1OB_gTc71kk1_cNoK-5v" style="width:57%;";></div></div><br>
-                                <input type="submit" value="Submit" class="button button5" style=" background-color: #555555; color: white; border: 2px solid white; border-radius: 1px; width:57%; height: 30px; "><br><br><br>
+                                <input id="submit" name="submit" type="submit" value="Submit" class="button button5" style=" background-color: #555555; color: white; border: 2px solid white; border-radius: 1px; width:57%; height: 30px; "><br><br><br>
                                 
                                 </form>
                           </div>
                       </div><!-- /row -->
                 </div> <!--form end--> 
-                            <div class="col-lg-6 text-left" style="background-color:#333; padding-left: 5%;">
+             <div class="col-lg-6 text-left" style="background-color:#333; padding-left: 5%;">
                     <div class="col">
                         <div class="row" style="padding-left:5%;">
                             <br>
@@ -122,6 +123,6 @@
 		<script src="assets/js/SmoothScroll.js"></script>
 		<script src="assets/js/theme-scripts.js"></script>
         <script src="scripts/gen_validatorv31.js" type="text/javascript" language="JavaScript" ></script>
-    	<script src='https://www.google.com/recaptcha/api.js'></script>
+    	
     
 	
