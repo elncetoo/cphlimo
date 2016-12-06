@@ -39,7 +39,7 @@ if( isset($_SESSION['user_id']) ){
 		<br>
         <br>
         <br>
-		<br/>Welcome <?= $user['f_name']; ?> 
+		<br/>Welcome <?= $user['username']; ?> 
 		<br/><br/>You are successfully logged in!
 		<br/><br/>
         <img src="img/two-thumbs-up.jpg" alt="buble" style="width:30%;height:30%;">

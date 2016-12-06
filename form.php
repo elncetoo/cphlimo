@@ -2,102 +2,87 @@
 
 session_start();
 
-if( isset($_SESSION['user_id']) ){
-	header("Location: form.php");
-}
-
 require 'database.php';
 
-if(!empty($_POST['email']) && !empty($_POST['password'])):
-	
-	$records = $conn->prepare('SELECT id,email,password FROM users WHERE email = :email');
-	$records->bindParam(':email', $_POST['email']);
+if( isset($_SESSION['user_id']) ){
+
+	$records = $conn->prepare('SELECT id, username, email, password FROM users WHERE id = :id');
+	$records->bindParam(':id', $_SESSION['user_id']);
 	$records->execute();
 	$results = $records->fetch(PDO::FETCH_ASSOC);
 
-	$message = '';
+	$user = NULL;
 
-	if(count($results) > 0 && password_verify($_POST['password'], $results['password']) ){
-
-		$_SESSION['user_id'] = $results['id'];
-		header("Location: form.php");
-
-	} else {
-		$message = 'Sorry, those credentials do not match';
+	if( count($results) > 0){
+		$user = $results;
 	}
 
-endif;
+}
 
 ?>
-<!DOCTYPE HTML>
-<html>
 
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>Contact Form</title>
+	<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<meta name="description" content="Copenhagen Limousine Service web page">
+		<meta name="author" content="">
+		<link rel="icon" href="favicon.ico">
+		<title>Copenhagen Limousine Service</title>
+		<!-- Bootstrap core CSS -->
+		
+        <link rel="stylesheet" type="text/css" href="assets/css/form-style.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/login-style.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
 </head>
-
 <body>
 
-    <header class="body">
-        <div class="col-lg-12 text-center">
-			<?php include 'menu.php';?>
-        </div>
-    </header>
-    		<?php if( !empty($user) ): ?>
-            
+	<div class="header">
+		<?php include 'menu.php';?>
+	</div>
+
+	<?php if( !empty($user) ): ?>
+		<br>
         <br>
         <br>
-        <br>
-		<br/><h2>Welcome <?= $user['email']; ?></h2>
-		<br/><br/><h2 style="padding-left:5%;">You are successfully logged in! To request a booking, please fill up the form below.</h2>
+		<br/><h2>Welcome <?= $user['username']; ?>, </h2>  
+		 <h3 style="color:#D8D7D7;">You are successfully logged in and now you may proceed with the booking form. </h3>
 		<br/><br/>
+        
+        <form action="form_handler.php" method="POST" class="topBefore">
+		
+            <input id="f_name" type="text" placeholder="First Name" name="f_name" required="true" style="height:30px; border-radius:0px;">
+            <input id="l_name" type="text" placeholder="Last Name" name="l_name" required="true" style="height:30px; border-radius:0px;">
+            <input id="email" type="text" placeholder="Your Email" name="email" required="true" style="height:30px; border-radius:0px;">
+            <input id="company" type="text" placeholder="Company" name="company" style="height:30px; border-radius:0px;"> 
+            <input id="phone" type="text" placeholder="Your Phone" name="phone" required="true" style="height:30px; border-radius:0px;"> <br>
+            <input id="car_model" type="text" placeholder="Which model car do You choose?" name="car_model" required="true" style="height:30px; border-radius:0px;">
+            <input id="nr_cars" type="text" placeholder="How many cars?" name="nr_cars" required="true" style="height:30px; border-radius:0px;">
+            <input id="nr_passangers" type="text" placeholder="For how many people?" name="nr_ppl" style="height:30px; border-radius:0px;">
+            <input id="time" type="text" placeholder="For how long do You need it?" name="time" required="true" style="height:30px; border-radius:0px;">
+            <input id="location" type="text" placeholder="Do you have a specific destination?" name="location" style="height:30px; border-radius:0px;">
+            <input id="comment" type="text" placeholder="Anything else in addition?" name="comment" required="true" style="height:60px; border-radius:0px;" ><br>
+            <input id="submit" type="submit" value="SUBMIT" style="height:60px; border-radius:0px;">
 
-    <section class="body">
-        <form action="insert.php" method="post">
-            
-        <input name="client_name" placeholder="First Name" required="true">
-         
-        <input name="client_surname_name" placeholder="Last Name" required="true">       
-       
-        <input name="client_address" type="text" placeholder="Address">
-        
-        <input name="client_number" type="text" placeholder="Phone number 00.. ..." required="true">
-        
-        <input name="company_name" type="text" placeholder="Company Name">
-        
-        <input name="zip_zipID" type="text" placeholder="Zip code">
-        
-        <input name="zip_Country_countryID" type="text" placeholder="Country">
-        
-        <input name="email" type="email" placeholder="Your email" required="true">
-        <label for='formCountries[]'>Select the Service:</label><br>
-        <select multiple="multiple" name="formCountries[]">
-            <option value="US">United States</option>
-            <option value="UK">United Kingdom</option>
-            <option value="France">France</option>
-            <option value="Mexico">Mexico</option>
-            <option value="Russia">Russia</option>
-            <option value="Japan">Japan</option>
-        </select>
-        
-        <input name="email" type="email" placeholder="Your email" required="true">
-        
-      
+		</form>
+   
+   <br><br> 
+		<h2><a href="logout.php" style="text-decoration:none;">Logout?</a></h2>
+
+	<?php else: ?>
+		<br>
         <br>
-                
-        <label>Message</label>
-        <textarea name="message" placeholder="Message Here"></textarea>
-                
-        <input id="submit" name="submit" type="submit" value="Insert">
-            
-        </form>
-    </section>
-
-    <footer class="body">
-       <?php require 'footer.php';?>
-       <br>
-       <br>
-        
-    </footer>
-
+        <br><br>
+        <br>
+        <br>
+		<h1>Please <a href="login.php" style="text-decoration:none;">Login</a> or <a href="register.php" style="text-decoration:none;">Register</a></h1>
+		 
+	<?php endif; ?>
+    <br /><br /><br /><br /><br /><br />
+<?php require 'footer.php';?>
+</body>
+</html>

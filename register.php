@@ -67,7 +67,7 @@ endif;
 		<p><?= $message ?></p>
 	<?php endif; ?>
 
-	<h1>Register below:</h1><br>
+	<h1>Back to <a href="login.php" style="text-decoration:none;">Login </a>or Register below:</h1><br>
 	
 
 	<form action="register.php" method="POST" class="topBefore">
