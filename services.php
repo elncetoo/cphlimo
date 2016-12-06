@@ -40,9 +40,10 @@
 				<div class="col-md-4 col-0-gutter">
 					<div class="ot-portfolio-item">
 						<figure class="effect-bubba">
-							<img src="img/portfolio-1.jpg" alt="img02" class="img-responsive" />
+							<img src="img/p1.jpg" alt="img02" class="img-responsive" />
 							<figcaption>
-								<h2>Road Show</h2>
+								<br>
+                                <h2>Road Show</h2>
 								<p>View more</p>
 								<a href="#" data-toggle="modal" data-target="#Modal-1"></a>
 							</figcaption>
@@ -54,9 +55,10 @@
 				<div class="col-md-4 col-0-gutter">
 					<div class="ot-portfolio-item">
 						<figure class="effect-bubba">
-							<img src="img/portfolio-2.jpg" alt="img02" class="img-responsive" />
+							<img src="img/p2.jpg" alt="img02" class="img-responsive" />
 							<figcaption>
-								<h2>Transfer Servicess</h2>
+								<br>
+                                <h2>Transfer Servicess</h2>
 								<p>View more</p>
 								<a href="#" data-toggle="modal" data-target="#Modal-2"></a>
 							</figcaption>
@@ -67,9 +69,10 @@
                 <div class="col-md-4 col-0-gutter">
 					<div class="ot-portfolio-item">
 						<figure class="effect-bubba">
-							<img src="img/portfolio-3.jpg" alt="img02" class="img-responsive" />
+							<img src="img/p3.jpg" alt="img02" class="img-responsive" />
 							<figcaption>
-								<h2>Pendler Services</h2>
+								<br>
+                                <h2>Pendler Services</h2>
 								<p>View more</p>
 								<a href="#" data-toggle="modal" data-target="#Modal-3"></a>
 							</figcaption>
@@ -83,9 +86,10 @@
 				<div class="col-md-4 col-0-gutter">
 					<div class="ot-portfolio-item">
 						<figure class="effect-bubba">
-							<img src="img/portfolio-4.jpg" alt="img02" class="img-responsive" />
+							<img src="img/p4.jpg" alt="img02" class="img-responsive" />
 							<figcaption>
-								<h2>Crew Transportation</h2>
+								<br>
+                                <h2>Crew Transportation</h2>
 								<p>View more</p>
 								<a href="#" data-toggle="modal" data-target="#Modal-4"></a>
 							</figcaption>
@@ -97,9 +101,10 @@
 				<div class="col-md-4 col-0-gutter">
 					<div class="ot-portfolio-item">
 						<figure class="effect-bubba">
-							<img src="img/portfolio-5.jpg" alt="img02" class="img-responsive" />
+							<img src="img/p5.jpg" alt="img02" class="img-responsive" />
 							<figcaption>
-								<h2>Worldwide Limousine Services</h2>
+								<br>
+                                <h2>Worldwide Limousine Services</h2>
 								<p>View more</p>
 								<a href="#" data-toggle="modal" data-target="#Modal-5"></a>
 							</figcaption>
@@ -110,8 +115,9 @@
                 <div class="col-md-4 col-0-gutter">
 					<div class="ot-portfolio-item">
 						<figure class="effect-bubba">
-							<img src="img/portfolio-6.jpg" alt="img02" class="img-responsive" />
+							<img src="img/p6.jpg" alt="img02" class="img-responsive" />
 							<figcaption>
+                            	<br>
 								<h2>Guardian Angels</h2>
 								<p>View more</p>
 								<a href="#" data-toggle="modal" data-target="#Modal-6"></a>
@@ -126,9 +132,10 @@
 				<div class="col-md-4 col-0-gutter">
 					<div class="ot-portfolio-item">
 						<figure class="effect-bubba">
-							<img src="img/portfolio-5.jpg" alt="img02" class="img-responsive" />
+							<img src="img/p7.jpg" alt="img02" class="img-responsive" />
 							<figcaption>
-								<h2>Security &amp; Bodyguards</h2>
+								<br>
+                                <h2>Security &amp; Bodyguards</h2>
 								<p>View more</p>
 								<a href="#" data-toggle="modal" data-target="#Modal-7"></a>
 							</figcaption>
@@ -140,9 +147,10 @@
 				<div class="col-md-4 col-0-gutter">
 					<div class="ot-portfolio-item">
 						<figure class="effect-bubba">
-							<img src="img/portfolio-6.jpg" alt="img02" class="img-responsive" />
+							<img src="img/p8.jpg" alt="img02" class="img-responsive" />
 							<figcaption>
-								<h2>Use Your Transport Time</h2>
+								<br>
+                                <h2>Use Your Transport Time</h2>
 								<p>View more</p>
 								<a href="#" data-toggle="modal" data-target="#Modal-8"></a>
 							</figcaption>
@@ -153,8 +161,9 @@
               <div class="col-md-4 col-0-gutter">
 					<div class="ot-portfolio-item">
 						<figure class="effect-bubba">
-							<img src="img/portfolio-6.jpg" alt="img02" class="img-responsive" />
+							<img src="img/p9.jpg" alt="img02" class="img-responsive" />
 							<figcaption>
+ 								<br>
 								<h2>Sightseeing</h2>
 								<p>View more</p>
 								<a href="#" data-toggle="modal" data-target="#Modal-9"></a>
