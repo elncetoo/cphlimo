@@ -34,8 +34,8 @@ endif;
 <html>
 <head>
 	<title>Login Below</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<link href='http://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="assets/css/login-style.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 </head>
 <body>
 
@@ -48,6 +48,7 @@ endif;
 	<?php endif; ?>
 
 	<h1>  Login</h1>
+    <br>
 	<span>or <a href="register.php" style="text-decoration:none; color:#fec503;">Register</a></span>
 
 	<form action="login.php" method="POST">

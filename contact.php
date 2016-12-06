@@ -13,15 +13,21 @@
 		<link href="assets/css/bootstrap.min.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
 				<!-- Custom styles  -->
-		<link href="assets/css/grid-style.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="assets/css/form-style.css">
+        <link href="assets/css/grid-style.css" rel="stylesheet">
         <link href="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.0/css/bootstrapValidator.min.css" rel="stylesheet prefetch">
          <script src="https://www.google.com/recaptcha/api.js"></script>
+         <script type="text/javascript">
+			 var RecaptchaOptions = {
+				theme : 'blackglass'
+			 };
+			 </script>
 		 <style>
-		 #map {
-		 -webkit-filter: grayscale(100%); /* Safari */
-    	 filter: grayscale(100%);
-		 invert(100%); filter: invert(100%);
-		 }
+			 #map {
+			 -webkit-filter: grayscale(100%); /* Safari */
+			 filter: grayscale(100%);
+			 invert(100%); filter: invert(100%);
+			 }
 		</style>
 	</head>
 	<body id="page-top" style="background-color: #000000;">
@@ -65,19 +71,19 @@
                                 <form name="contactform" method="POST" action="contact-form-handler.php" class="form-horizontal" > 
                                 <h5>
                                 
-                                <input type="text" name="name" id="name" placeholder="Name:" required="true" size="35" style=" background-color: #242424; height: 30px; border: 2px solid #7A7A7A; border-radius: 1px; width:57%;">
+                                <input type="text" name="name" id="name" placeholder="Name:" required="true" size="35" style="width:57%; border: solid 1px #b3aca7;">
                                 </h5>
                                 <h5>
                                
-                                <input type="email" name="email" id="email" placeholder="E-mail:" required="true" maxlength="80" size="35" style="background-color: #242424; height: 30px; border: 2px solid #7A7A7A; border-radius: 1px; width:57%;"><br>
+                                <input type="email" name="email" id="email" placeholder="E-mail:" required="true" maxlength="80" size="35" style="width:57%; border: solid 1px #b3aca7;"><br>
                                 </h5>
                                 <h5>
                                 
-                                <textarea name="message" id="message" placeholder="Write Your Message Here:" required rows="4" cols="34" style="background-color: #242424; border: 2px solid #7A7A7A; border-radius: 1px; width:57%;"></textarea>
+                                <textarea name="message" id="message" placeholder="Write Your Message Here:" required rows="4" cols="34" style="width:57%; border: solid 1px #b3aca7;"></textarea>
                                 </h5>
                                 <div style="padding-left:none;">
                                 <div class="g-recaptcha" data-sitekey="6Ldwrg0UAAAAAMbRYVzV1OB_gTc71kk1_cNoK-5v" style="width:57%;";></div></div><br>
-                                <input id="submit" name="submit" type="submit" value="Submit" class="button button5" style=" background-color: #555555; color: white; border: 2px solid white; border-radius: 1px; width:57%; height: 30px; "><br><br><br>
+                                <input id="submit" name="submit" type="submit" value="SUBMIT" style="width:57%; color: #fff; border: solid 1px #b3aca7;"><br><br><br>
                                 
                                 </form>
                           </div>

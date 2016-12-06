@@ -107,7 +107,7 @@ if( empty($errors))
                                 </h5>
                                 <h5>
                                
-                                <input type="text" name="email" id="email" placeholder="E-mail:" required="true" maxlength="80" size="35" style="background-color: #242424; height: 30px; border: 2px solid #7A7A7A; border-radius: 1px; width:57%;"><br>
+                                <input type="email" name="email" id="email" placeholder="E-mail:" required="true" maxlength="80" size="35" style="background-color: #242424; height: 30px; border: 2px solid #7A7A7A; border-radius: 1px; width:57%;"><br>
                                 </h5>
                                 <h5>
                                 
@@ -115,7 +115,7 @@ if( empty($errors))
                                 </h5>
                                 <div style="padding-left:none;">
                                 <div class="g-recaptcha" data-sitekey="6Ldwrg0UAAAAAMbRYVzV1OB_gTc71kk1_cNoK-5v" style="width:57%;";></div></div><br>
-                                <input type="submit" value="Submit" class="button button5" style=" background-color: #555555; color: white; border: 2px solid white; border-radius: 1px; width:57%; height: 30px; "><br><br><br>
+                                <input id="submit" name="submit" type="submit" value="Submit" class="button button5" style=" background-color: #555555; color: white; border: 2px solid white; border-radius: 1px; width:57%; height: 30px; "><br><br><br>
                                 
                                 </form>
                           </div>

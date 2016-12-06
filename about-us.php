@@ -1,3 +1,25 @@
+<?php
+
+session_start();
+
+require 'database.php';
+
+if( isset($_SESSION['user_id']) ){
+
+	$records = $conn->prepare('SELECT id,email,password FROM users WHERE id = :id');
+	$records->bindParam(':id', $_SESSION['user_id']);
+	$records->execute();
+	$results = $records->fetch(PDO::FETCH_ASSOC);
+
+	$user = NULL;
+
+	if( count($results) > 0){
+		$user = $results;
+	}
+
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -11,6 +33,7 @@
 		<title>Copenhagen Limousine Service</title>
 		<!-- Bootstrap core CSS -->
 		<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
 				<!-- Custom styles  -->
 		<link href="assets/css/grid-style.css" rel="stylesheet">
@@ -32,32 +55,34 @@
 			<div class="row">
             	<div class="col-lg-12 text-center">
                   <div class="section-title">
-                            <br>
-                            <br>
-                            <br>
-                            <h3 style="color: #09F08F;">Thank you for submitting the form. We will contact you soon!</h3>
-                            <br>
-                            <br>
-                            <br>
-                        </div>
+                  		<br>
+                        <br>
+                        <br>
+						<h2 style="padding-left:5%;">To make a booking, please fill up the form.</h2>
+						<br>
+                        <br>
+                        <br>
+                    </div>
                    </div>
 				<div style="height: 10%;">
-                      <div id="map">
-                         <iframe class="gmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2250.631186315046!2d12.597055215926957!3d55.66062348052871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652534f18d55c95%3A0x9347b86e171e1982!2sKornblomstvej+2%2C+2300+K%C3%B8benhavn+S!5e0!3m2!1sen!2sdk!4v1480515431815" width="100%" height="400px" frameborder="0" style="border:0; " allowfullscreen> </iframe>
-                      </div>
+                      <?php if( !empty($user) ): ?>
                 </div>
                <!--form start-->   
                 <br>
                 <br>
+                
                 <div class="row" style="background-color:#333333;">
                 <div class="col-lg-6 text-left" style="background-color:#333; padding-left: 5%;">
                     <div class="row" style="padding-left:5%;">
                         <br>
-                     <h2>CONTACT US:</h2>
+                     <h2>BOOKING FORM:</h2>
                             <br>
-                            <h4>If you have any questions, suggestions <br />
-                                or comments, please feel free to send us<br />
-                                an e-mail via the form below.</h4>
+                            <h4><br/>Welcome <?= $user['email']; ?> 
+							<br/><br/>You are successfully logged in!
+							<br/><br/>
+        
+                            <br/><br />
+                            <a href="logout.php">Logout?</a></h4>
                         <div class="formrow">
                            
                             	<br>
@@ -76,6 +101,7 @@
                                 </h5>
                                 <div style="padding-left:none;">
                                 <div class="g-recaptcha" data-sitekey="6Ldwrg0UAAAAAMbRYVzV1OB_gTc71kk1_cNoK-5v" style="width:57%;";></div></div><br>
+                                
                                 <input id="submit" name="submit" type="submit" value="Submit" class="button button5" style=" background-color: #555555; color: white; border: 2px solid white; border-radius: 1px; width:57%; height: 30px; "><br><br><br>
                                 
                                 </form>

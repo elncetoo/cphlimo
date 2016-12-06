@@ -15,9 +15,10 @@
         <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
  </head>
     
-    <body style="background-color: #000000;">
-     <?php include 'menu.php';?>
-    
+    <body id="page-top" style="background-color: #000000;">
+		<div class="col-lg-12 text-center">
+			<?php include 'menu.php';?>
+    	</div>
     
           <article class="article">
           <img src="img/banner-video.jpg" alt="buble" style="width:100%;height:100%;">
