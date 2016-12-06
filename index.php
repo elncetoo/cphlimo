@@ -12,6 +12,7 @@
         <link href="assets/css/style.css" rel="stylesheet" type="text/css" >
         <link rel="stylesheet" href="assets/css/slider-style.css">
         <link rel="stylesheet" href="assets/css/carousel-style.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
  </head>
     
@@ -31,34 +32,34 @@
           <div class="row">
     <div class="col-md-12">
       <div class="carousel slide multi-item-carousel" id="theCarousel">
-        <div class="carousel-inner">
+        <div class="carousel-inner" width="60%">
           <div class="item active">
-            <div class="col-xs-4"><a href="#1"><img src="http://placehold.it/300/f44336/000000" class="img-responsive"></a></div>
+            <div class="col-xs-4"><a href="services.php"><img src="img/services.png" class="img-responsive"></a></div>
           </div>
           <div class="item">
-            <div class="col-xs-4"><a href="#1"><img src="http://placehold.it/300/e91e63/000000" class="img-responsive"></a></div>
+            <div class="col-xs-4"><a href="services.php"><img src="img/services2.png" class="img-responsive"></a></div>
           </div>
           <div class="item">
-            <div class="col-xs-4"><a href="#1"><img src="http://placehold.it/300/9c27b0/000000" class="img-responsive"></a></div>
+            <div class="col-xs-4"><a href="services.php"><img src="img/services3.png" class="img-responsive"></a></div>
           </div>
           <div class="item">
-            <div class="col-xs-4"><a href="#1"><img src="http://placehold.it/300/673ab7/000000" class="img-responsive"></a></div>
+            <div class="col-xs-4"><a href="services.php"><img src="img/services4.png" class="img-responsive"></a></div>
           </div>
           <div class="item">
-            <div class="col-xs-4"><a href="#1"><img src="http://placehold.it/300/4caf50/000000" class="img-responsive"></a></div>
+            <div class="col-xs-4"><a href="services.php"><img src="img/services5.png" class="img-responsive"></a></div>
           </div>
           <div class="item">
-            <div class="col-xs-4"><a href="#1"><img src="http://placehold.it/300/8bc34a/000000" class="img-responsive"></a></div>
+            <div class="col-xs-4"><a href="services.php"><img src="img/services6.png" class="img-responsive"></a></div>
           </div>
-          <!-- add  more items here -->
-          <!-- Example item start:  -->
+          <div class="item">
+            <div class="col-xs-4"><a href="services.php"><img src="img/services7.png" class="img-responsive"></a></div>
+          </div>
+          <div class="item">
+            <div class="col-xs-4"><a href="services.php"><img src="img/services8.png" class="img-responsive"></a></div>
+          </div>
           
-          <div class="item">
-            <div class="col-xs-4"><a href="#1"><img src="http://placehold.it/300/8bc34a/000000" class="img-responsive"></a></div>
-          </div>
-          
-          <!--  Example item end -->
         </div>
+        
         <a class="left carousel-control" href="#theCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
         <a class="right carousel-control" href="#theCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
       </div>
@@ -70,8 +71,8 @@
         </br>
         </br>
         </br>
-        
-		<div>
+   <div class="row row-0-gutter">    
+	<div class="row-md-6 text-center">
        <figure class="snip1533">
           <figcaption>
             <blockquote>
@@ -92,7 +93,7 @@
           </figcaption>
         </figure>
 		</div><!--end testimonials-->
-        
+       </div> 
         </br>
         </br>
         </br>

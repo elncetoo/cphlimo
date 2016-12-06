@@ -179,10 +179,10 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title" id="Modal-label-1">Road Show</h4>
+						<h4 class="modal-title" id="Modal-label-1">Details</h4>
 					</div>
 					<div class="modal-body">
-						<img src="img/portfolio-1.jpg" alt="img01" class="img-responsive" />
+						<img src="img/s1.jpg" alt="img01" class="img-responsive" />
 						<div class="modal-works"><span>Denmark</span></div>
 						<p>Copenhagen Limousine Service has unmatched experience of handling custom transportation services for Road Shows in Denmark</p>
 <p>Throughout many, many years Copenhagen Limousine Service has delivered Road Show services to a magnitude of very highly discerned customers, professionals, conglomerates and multinational companies and organisations.</p>
@@ -209,10 +209,10 @@
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title" id="Modal-label-2">Transfer Services</h4>
+						<h4 class="modal-title" id="Modal-label-2">Details</h4>
 					</div>
 					<div class="modal-body">
-						<img src="img/portfolio-2.jpg" alt="img01" class="img-responsive" />
+						<img src="img/s2.jpg" alt="img01" class="img-responsive" />
 						<div class="modal-works"><span>Denmark</span></div>
 						<p>
 Transfer Services, A to B Services or Point to Point Service, it is all the same</p>
@@ -237,10 +237,10 @@ Transfer Services, A to B Services or Point to Point Service, it is all the same
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title" id="Modal-label-3">Pendler Services</h4>
+						<h4 class="modal-title" id="Modal-label-3">Details</h4>
 					</div>
 					<div class="modal-body">
-						<img src="img/portfolio-3.jpg" alt="img01" class="img-responsive" />
+						<img src="img/s3.jpg" alt="img01" class="img-responsive" />
 						<div class="modal-works"><span>Denmark</span></div>
 						<p>Copenhagen Limousine Service and our sister company The Private Car Company carries out Pendler Services too.</p>
 <p>You may not realize it, but several companies are actually already finding the great value of utilizing us for the daily commute between home and work, or simply one location to the other or the transport from airport to hotel or vice versa on a daily basis.</p>
@@ -264,10 +264,10 @@ Transfer Services, A to B Services or Point to Point Service, it is all the same
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title" id="Modal-label-4">Crew Transportation</h4>
+						<h4 class="modal-title" id="Modal-label-4">Details</h4>
 					</div>
 					<div class="modal-body">
-						<img src="img/portfolio-4.jpg" alt="img01" class="img-responsive" />
+						<img src="img/s4.jpg" alt="img01" class="img-responsive" />
 						<div class="modal-works"><span>Denmark</span></div>
 						<p>Did you know that Copenhagen Limousine Service through our sister company The Private Car Company is actually one of the largest crew transportation services companies in Denmark?</p>
 <p>With a number of the world famous large airline companies using our services The Private Car Company which is an independent company is actually one of the largest suppliers of crew transportation services in Denmark.</p>
@@ -285,10 +285,10 @@ Transfer Services, A to B Services or Point to Point Service, it is all the same
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title" id="Modal-label-5">Worldwide Limousine Services</h4>
+						<h4 class="modal-title" id="Modal-label-5">Details</h4>
 					</div>
 					<div class="modal-body">
-						<img src="img/portfolio-5.jpg" alt="img01" class="img-responsive" />
+						<img src="img/s5.jpg" alt="img01" class="img-responsive" />
 						<div class="modal-works"><span>Denmark</span></div>
 						<p>We are proud to be able to serve your transportation needs where ever you go &#8211; ALL OVER THE WORLD!</p>
 <p>We are the company of its kind in Denmark that has been around the longest time and throughout the many years we have established the most fantastic relations all over the world with the best limousine and chauffeur drive operators that exist.</p>
@@ -315,10 +315,10 @@ Transfer Services, A to B Services or Point to Point Service, it is all the same
 				<div class="modal-content">
 					<div class="modal-header">
 						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-						<h4 class="modal-title" id="Modal-label-5">Guardian Angels</h4>
+						<h4 class="modal-title" id="Modal-label-5">Details</h4>
 					</div>
 					<div class="modal-body">
-						<img src="img/portfolio-5.jpg" alt="img01" class="img-responsive" />
+						<img src="img/s6.jpg" alt="img01" class="img-responsive" />
 						<div class="modal-works"><span>Denmark</span></div>
 						<p>We are pleased also to be able to make available special aid and services with our Guardian Angel programme.</p>
 <p>Essentially, with this programme we can set up help desk in the airport for meeting clients, guest or passengers and guide them onwards to their coach, chauffeur driven vehicle or whatever. Our Guardian Angels will aid in checking in at hotels as well as checking out. They happily will arrange for pre-arrival welcome packages, tourist guides, books and gifts and can arrange for tickets and dinner reservations.</p>
@@ -337,10 +337,10 @@ Transfer Services, A to B Services or Point to Point Service, it is all the same
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                <h4 class="modal-title" id="Modal-label-5">Security and bodyguards</h4>
+                                <h4 class="modal-title" id="Modal-label-5">Details</h4>
                             </div>
                             <div class="modal-body">
-                                <img src="img/portfolio-5.jpg" alt="img01" class="img-responsive" />
+                                <img src="img/s7.jpg" alt="img01" class="img-responsive" />
                                 <div class="modal-works"><span>Denmark</span></div>
                                 <p>If you are in need of heightened security, we have extensive experience working closely with the best certified security companies in the country who are locally knowledgeable of logistics, safe routes, hospitals and police stations.</p>
                             </div>
@@ -356,10 +356,10 @@ Transfer Services, A to B Services or Point to Point Service, it is all the same
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                <h4 class="modal-title" id="Modal-label-5">Use your transport time</h4>
+                                <h4 class="modal-title" id="Modal-label-5">Details</h4>
                             </div>
                             <div class="modal-body">
-                                <img src="img/portfolio-5.jpg" alt="img01" class="img-responsive" />
+                                <img src="img/s8.jpg" alt="img01" class="img-responsive" />
                                 <div class="modal-works"><span>Denmark</span></div>
                                 <p>Having a chauffeur driven vehicle at your disposal gives you optimal usage of your time &#8211; relax yourself&#8230;</p>
 <p>Everybody who has tried to a busy schedule getting round town to several different meetings or other important gatherings knows how exhausting it can be. Making use of our services simply allows you to let go of many of the worries in connection with your programme and eliminates time waste. Using our chauffeur driven vehicles you do not need to bother yourself with the task of finding your way, finding parking spaces, paying the meter, returning back to the vehicle in due time etc.</p>
@@ -379,10 +379,10 @@ Transfer Services, A to B Services or Point to Point Service, it is all the same
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                <h4 class="modal-title" id="Modal-label-5">Sightseeing</h4>
+                                <h4 class="modal-title" id="Modal-label-5">Details</h4>
                             </div>
                             <div class="modal-body">
-                                <img src="img/portfolio-5.jpg" alt="img01" class="img-responsive" />
+                                <img src="img/s9.jpg" alt="img01" class="img-responsive" />
                                 <div class="modal-works"><span>Copenhagen</span></div>
                                 <p>Copenhagen Limousine Service offers everything you could wish for in a sightseeing &#8211; just let us know what your interests are and we will make sure that you get to see everything noteworthy</p>
 <p>We have carried out sightseeing trips throughout our entire history and thus have extensive experience.</p>

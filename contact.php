@@ -69,22 +69,17 @@
                            
                             	<br>
                                 <form name="contactform" method="POST" action="contact-form-handler.php" class="form-horizontal" > 
-                                <h5>
-                                
-                                <input type="text" name="name" id="name" placeholder="Name:" required="true" size="35" style="width:57%; border: solid 1px #b3aca7;">
-                                </h5>
-                                <h5>
-                               
-                                <input type="email" name="email" id="email" placeholder="E-mail:" required="true" maxlength="80" size="35" style="width:57%; border: solid 1px #b3aca7;"><br>
-                                </h5>
-                                <h5>
-                                
-                                <textarea name="message" id="message" placeholder="Write Your Message Here:" required rows="4" cols="34" style="width:57%; border: solid 1px #b3aca7;"></textarea>
-                                </h5>
-                                <div style="padding-left:none;">
-                                <div class="g-recaptcha" data-sitekey="6Ldwrg0UAAAAAMbRYVzV1OB_gTc71kk1_cNoK-5v" style="width:57%;";></div></div><br>
-                                <input id="submit" name="submit" type="submit" value="SUBMIT" style="width:57%; color: #fff; border: solid 1px #b3aca7;"><br><br><br>
-                                
+                                    <h5>
+                                    <input type="text" name="name" id="name" placeholder="Name:" required="true" size="35" style="width:57%; border: solid 1px #b3aca7;">
+                                    </h5>
+                                    <h5>
+                                    <input type="email" name="email" id="email" placeholder="E-mail:" required="true" maxlength="80" size="35" style="width:57%; border: solid 1px #b3aca7;"><br>
+                                    </h5>
+                                    <h5><textarea name="message" id="message" placeholder="Write Your Message Here:" required rows="4" cols="34" style="width:57%; border: solid 1px #b3aca7;"></textarea>
+                                    </h5>
+                                    <div style="padding-left:none;">
+                                    <div class="g-recaptcha" data-sitekey="6Ldwrg0UAAAAAMbRYVzV1OB_gTc71kk1_cNoK-5v" style="width:57%;";></div></div><br>
+                                    <input id="submit" name="submit" type="submit" value="SUBMIT" style="width:57%; color: #fff; border: solid 1px #b3aca7;"><br><br><br>
                                 </form>
                           </div>
                       </div><!-- /row -->

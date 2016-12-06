@@ -58,10 +58,11 @@ endif;
         <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
 </head>
 <body style="background-color: #000000;">
-	<div class="col-lg-12 text-center">
+<heade>
+	<div class="col-lg-12 text-center" style="margin-top:none; padding-top:none;">
 			<?php include 'menu.php';?>
         </div>
-
+</header>
 	<?php if(!empty($message)): ?>
 		<p><?= $message ?></p>
 	<?php endif; ?>
