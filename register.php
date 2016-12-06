@@ -67,22 +67,23 @@ endif;
 		<p><?= $message ?></p>
 	<?php endif; ?>
 
-	<h1>Register below:</h1>
+	<h1>Register below:</h1><br>
 	
 
 	<form action="register.php" method="POST" class="topBefore">
 		
-        <input id="username" type="text" placeholder="Username" name="username" required="true">
-		<input id="email" type="text" placeholder="Your Email" name="email" required="true">
-		<input id="password" type="password" placeholder="Password" name="password" required="true">
-		<input id="confirm_password" type="password" placeholder="Confirm Password" name="confirm_password" required="true"><br>
-        <input id="f_name" type="text" placeholder="First Name" name="f_name">
-        <input id="l_name" type="text" placeholder="Last Name" name="l_name"> 
-        <input id="company" type="text" placeholder="Company" name="company"> 
-       	<input id="submit" type="submit" value="SUBMIT">
+        <input id="username" type="text" placeholder="Username" name="username" required="true" style="height:30px; border-radius:0px;">
+		<input id="email" type="text" placeholder="Your Email" name="email" required="true" style="height:30px; border-radius:0px;">
+        <input id="confirm_email" type="text" placeholder="Confirm Email" name="confirm_email" required="true" style="height:30px; border-radius:0px;">
+		<input id="password" type="password" placeholder="Password" name="password" required="true" style="height:30px; border-radius:0px;">
+		<input id="confirm_password" type="password" placeholder="Confirm Password" name="confirm_password" required="true" style="height:30px; border-radius:0px;"><br>
+        <input id="f_name" type="text" placeholder="First Name" name="f_name" style="height:30px;border-radius:0px;">
+        <input id="l_name" type="text" placeholder="Last Name" name="l_name" style="height:30px; border-radius:0px;"> 
+        <input id="company" type="text" placeholder="Company" name="company" style="height:30px; border-radius:0px;"> 
+       	<input id="submit" type="submit" value="SUBMIT" style="height:60px; border-radius:0px;">
 
 	</form>
    
-   <br><br>
+   <br><br> <br><br>
        
 <?php require 'footer.php';?>

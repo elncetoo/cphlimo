@@ -14,8 +14,8 @@ input[type="text"], input[type="password"]{
 	padding:10px;
 	display:block;
 	width:300px;
-	border-radius: 3px;
-	border:1px solid #eee;
+	
+	 border: solid 1px #b3aca7;
 	margin:20px auto;
 }
 
@@ -26,8 +26,8 @@ input[type="submit"]{
 	width:320px;
 	margin:20px auto;
 	margin-top:0px;
-	border:0px;
-	border-radius: 3px;
+	border: solid 1px #b3aca7;
+	
 	cursor:pointer;
 }
 
