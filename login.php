@@ -10,7 +10,7 @@ require 'database.php';
 
 if(!empty($_POST['email']) && !empty($_POST['password'])):
 	
-	$records = $conn->prepare('SELECT id,email,password FROM users WHERE email = :email');
+	$records = $conn->prepare('SELECT id,username,password FROM users WHERE email = :email');
 	$records->bindParam(':email', $_POST['email']);
 	$records->execute();
 	$results = $records->fetch(PDO::FETCH_ASSOC);
@@ -20,6 +20,7 @@ if(!empty($_POST['email']) && !empty($_POST['password'])):
 	if(count($results) > 0 && password_verify($_POST['password'], $results['password']) ){
 
 		$_SESSION['user_id'] = $results['id'];
+		$_SESSION['user_name'] = $results['username'];
 		header("Location: form.php");
 
 	} else {

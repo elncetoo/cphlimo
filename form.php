@@ -1,24 +1,7 @@
 <?php
 
 session_start();
-
-require 'database.php';
-
-if( isset($_SESSION['user_id']) ){
-
-	$records = $conn->prepare('SELECT id, username, email, password FROM users WHERE id = :id');
-	$records->bindParam(':id', $_SESSION['user_id']);
-	$records->execute();
-	$results = $records->fetch(PDO::FETCH_ASSOC);
-
-	$user = NULL;
-
-	if( count($results) > 0){
-		$user = $results;
-	}
-
-}
-
+	
 ?>
 
 <!DOCTYPE html>
@@ -45,11 +28,11 @@ if( isset($_SESSION['user_id']) ){
 		<?php include 'menu.php';?>
 	</div>
 
-	<?php if( !empty($user) ): ?>
+	<?php if( isset($_SESSION['user_id']) ): ?>
 		<br>
         <br>
         <br>
-		<br/><h2>Welcome <?= $user['username']; ?>, </h2>  
+		<br/><h2>Welcome <?= $_SESSION['user_name']; ?>, </h2>  
 		 <h3 style="color:#D8D7D7;">You are successfully logged in and now you may proceed with the booking form. </h3>
 		<br/><br/>
         
@@ -63,9 +46,9 @@ if( isset($_SESSION['user_id']) ){
             <input id="car_model" type="text" placeholder="Which model car do You choose?" name="car_model" required="true" style="height:30px; border-radius:0px;">
             <input id="nr_cars" type="text" placeholder="How many cars?" name="nr_cars" required="true" style="height:30px; border-radius:0px;">
             <input id="nr_passangers" type="text" placeholder="For how many people?" name="nr_ppl" style="height:30px; border-radius:0px;">
-            <input id="time" type="text" placeholder="For how long do You need it?" name="time" required="true" style="height:30px; border-radius:0px;">
-            <input id="location" type="text" placeholder="Do you have a specific destination?" name="location" style="height:30px; border-radius:0px;">
-            <input id="comment" type="text" placeholder="Anything else in addition?" name="comment" required="true" style="height:60px; border-radius:0px;" ><br>
+            
+            <input id="destination" type="text" placeholder="Do you have a specific destination?" name="destination" style="height:30px; border-radius:0px;">
+            <input id="descr" type="text" placeholder="Anything else in addition?" name="descr" required="true" style="height:60px; border-radius:0px;" ><br>
             <input id="submit" type="submit" value="SUBMIT" style="height:60px; border-radius:0px;">
 
 		</form>

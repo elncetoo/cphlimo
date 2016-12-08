@@ -17,25 +17,31 @@ if(!empty($_POST['email']) && !empty($_POST['password'])):
 	}		 
 	else {	
 	
-	// Enter the new user in the database
-	$sql = "INSERT INTO users (username, email, password, f_name, l_name, company) VALUES (:username, :email, :password, :f_name, :l_name, :company)";
-	$stmt = $conn->prepare($sql);
-	$password=password_hash($_POST['password'], PASSWORD_BCRYPT);
-	
-	$stmt->bindParam(':username', $username);
-	$stmt->bindParam(':email', $email);
-	$stmt->bindParam(':password', $password);
-	$stmt->bindParam(':f_name', $f_name);
-	$stmt->bindParam(':l_name', $l_name);
-	$stmt->bindParam(':company', $company);
-
-	if( $stmt->execute() ):
-		$message = '<h2 style="padding-left: 2%; color:#09F08F;">Successfully created new user, please proceed to <a href="login.php" style="text-decoration:none;">login page</a>.</h2><br><br><br>';
-	else:
-		$message = 'Sorry there must have been an issue creating your account';
-	endif;
+		// Enter the new user in the database
+		$sql = "INSERT INTO cphlimo.users (username, email, password, f_name, l_name, company) VALUES (:username, :email, :password, :f_name, :l_name, :company)";
+		$stmt = $conn->prepare($sql);
+		$password=password_hash($_POST['password'], PASSWORD_BCRYPT);
+		$username =$_POST['username'];
+		$f_name =$_POST['f_name'];
+		$l_name =$_POST['l_name'];
+		$company =$_POST['company'];
+				
+		
+		$stmt->bindParam(':username', $username);
+		$stmt->bindParam(':email', $email);
+		$stmt->bindParam(':password', $password);
+		$stmt->bindParam(':f_name', $f_name);
+		$stmt->bindParam(':l_name', $l_name);
+		$stmt->bindParam(':company', $company);
+		
+		if( $stmt->execute() ):
+			$message = '<h2 style="padding-left: 2%; color:#09F08F;">Successfully created new user, please proceed to <a href="login.php" style="text-decoration:none;">login page</a>.</h2><br><br><br>';
+		else:
+			$message = 'Sorry there must have been an issue creating your account';
+		endif;
 	}
 endif;
+
 
 ?>
 
@@ -79,7 +85,7 @@ endif;
 		<input id="confirm_password" type="password" placeholder="Confirm Password" name="confirm_password" required="true" style="height:30px; border-radius:0px;"><br>
         <input id="f_name" type="text" placeholder="First Name" name="f_name" style="height:30px;border-radius:0px;">
         <input id="l_name" type="text" placeholder="Last Name" name="l_name" style="height:30px; border-radius:0px;"> 
-        <input id="company" type="text" placeholder="Company" name="company" style="height:30px; border-radius:0px;"> 
+        <input id="company" type="text" placeholder="Company" name="company"   style="height:30px; border-radius:0px;"> 
        	<input id="submit" type="submit" value="SUBMIT" style="height:60px; border-radius:0px;">
 
 	</form>
