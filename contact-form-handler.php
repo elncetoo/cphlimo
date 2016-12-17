@@ -51,6 +51,7 @@ if( empty($errors))
         <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
 				<!-- Custom styles  -->
 		<link href="assets/css/grid-style.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="assets/css/form-style.css">
         <link href="http://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.0/css/bootstrapValidator.min.css" rel="stylesheet prefetch">
          <style>
 		 #map {
@@ -86,55 +87,52 @@ if( empty($errors))
                              <iframe class="gmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2250.631186315046!2d12.597055215926957!3d55.66062348052871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652534f18d55c95%3A0x9347b86e171e1982!2sKornblomstvej+2%2C+2300+K%C3%B8benhavn+S!5e0!3m2!1sen!2sdk!4v1480515431815" width="100%" height="400px" frameborder="0" style="border:0; " allowfullscreen> </iframe>
                           </div>
                     </div>
-                   <!--form start-->   
-                    <br>
-                   <div class="row" style="background-color:#333333;">
-                <div class="col-lg-6 text-left" style="background-color:#333; padding-left: 5%;">
-                    <div class="row" style="padding-left:5%;">
+                    <!--form start-->   
+                <br>
+                <br>
+                <div class="row" style="background-color:#2D2D2D;">
+                <div class="col-lg-6 text-left" style="background-color:#2D2D2D; padding-left: 8%; padding-right: 6%;">
+                    <div class="row" style="padding-left:7%;">
                         <br>
                      <h2>CONTACT US:</h2>
                             <br>
-                            <h4>If you have any questions, suggestions <br />
-                                or comments, please feel free to send us<br />
-                                an e-mail via the form below.</h4>
+                            <h4 style="color: #B2B1B1;">If you have any questions, suggestions <br />
+                                or comments, please feel free to send <br />
+                                us an e-mail via the form below.</h4>
                         <div class="formrow">
                            
-                            	<br>
+                                <br>
                                 <form name="contactform" method="POST" action="contact-form-handler.php" class="form-horizontal" > 
-                                <h5>
-                                
-                                <input type="text" name="name" id="name" placeholder="Name:" required="true" size="35" style=" background-color: #242424; height: 30px; border: 2px solid #7A7A7A; border-radius: 1px; width:57%;">
-                                </h5>
-                                <h5>
-                               
-                                <input type="email" name="email" id="email" placeholder="E-mail:" required="true" maxlength="80" size="35" style="background-color: #242424; height: 30px; border: 2px solid #7A7A7A; border-radius: 1px; width:57%;"><br>
-                                </h5>
-                                <h5>
-                                
-                                <textarea name="message" id="message" placeholder="Write Your Message Here:" required rows="4" cols="34" style="background-color: #242424; border: 2px solid #7A7A7A; border-radius: 1px; width:57%;"></textarea>
-                                </h5>
-                                <div style="padding-left:none;">
-                                <div class="g-recaptcha" data-sitekey="6Ldwrg0UAAAAAMbRYVzV1OB_gTc71kk1_cNoK-5v" style="width:57%;";></div></div><br>
-                                <input id="submit" name="submit" type="submit" value="Submit" class="button button5" style=" background-color: #555555; color: white; border: 2px solid white; border-radius: 1px; width:57%; height: 30px; "><br><br><br>
-                                
+                                    <h5>
+                                    <input type="text" name="name" id="name" placeholder="Name:" required="true" size="35" style="width:70%; border: solid 1px #b3aca7;">
+                                    </h5>
+                                    <h5>
+                                    <input type="email" name="email" id="email" placeholder="E-mail:" required="true" maxlength="80" size="35" style="width:70%; border: solid 1px #b3aca7;"><br>
+                                    </h5>
+                                    <h5><textarea name="message" id="message" placeholder="Write Your Message Here:" required rows="4" cols="34" style="width:70%; border: solid 1px #b3aca7;"></textarea>
+                                    </h5>
+                                    <div style="padding-left:none;">
+                                    <div class="g-recaptcha" data-sitekey="6Ldwrg0UAAAAAMbRYVzV1OB_gTc71kk1_cNoK-5v" style="width:70%;";></div></div><br>
+                                    <input id="submit" name="submit" type="submit" value="SUBMIT" style="width:70%; color: #fff; border: solid 1px #b3aca7;"><br><br><br>
                                 </form>
                           </div>
                       </div><!-- /row -->
                 </div> <!--form end--> 
-             <div class="col-lg-6 text-left" style="background-color:#333; padding-left: 5%;">
+             <div class="col-lg-6 text-left" style="background-color:#2D2D2D; padding-left: 5%;">
                     <div class="col">
-                        <div class="row" style="padding-left:5%;">
+                        <div class="row" style="padding-left:9%;">
                             <br>
-                     	 <h2>ADDRESS:</h2>
+                         <h2>ADDRESS:</h2>
                             <br>
-                                <h4 style="padding-top:none;">Bådehavnsgade 40</h4> 
-                                     <h4 style="padding-top:none;">2450 København SV</h4> 
-                                     <h4 style="padding-top:none;">Tel.: +45 70 260 601</h4> 
-                                     <h4 style="padding-top:none;">Fax.: +45 33 150 634</h4> 
+                                <h4 style="padding-top:none;color: #B2B1B1;">Bådehavnsgade 40</h4> 
+                                     <h4 style="padding-top:none; color: #B2B1B1;">2450 København SV</h4> 
+                                     <h4 style="padding-top:none; color: #B2B1B1;">Denmark</h4> 
+                                     <h4 style="padding-top:none; color: #B2B1B1;">Tel.: +45 70 260 601</h4> 
+                                     <h4 style="padding-top:none; color: #B2B1B1;">Fax.: +45 33 150 634</h4> 
                                 </h4>
                                 </div>
                                 <br><br><br><br>
-                                   <div style="padding-left:none;">
+                                   <div style="padding-left:5%;">
                                     <br>
                                     <br><br>
                                     <img src="img/social/no-circle/fb.png" alt="fb"><a href="https://www.facebook.com/Copenhagen-Limousine-Service-60297880809/?fref=ts" style="padding-right:1%;"></a>
@@ -147,8 +145,8 @@ if( empty($errors))
                     </div> 
                             </div> <!--col end--> 
                             </div> 
-                                </div> <!--row end--> 
-                             </div> <!--container end--> 
+                          </div><!--row end-->
+                         </div> <!--container end--> 
              <?php require 'assets/inc/footer.php';?>
              <br>
              <br>
@@ -161,6 +159,7 @@ if( empty($errors))
             <script src="assets/js/SmoothScroll.js"></script>
             <script src="assets/js/theme-scripts.js"></script>
             <script src="scripts/gen_validatorv31.js" type="text/javascript" language="JavaScript" ></script>
+            <script src='https://www.google.com/recaptcha/api.js'></script>
         
         
         
