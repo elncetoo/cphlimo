@@ -1,7 +1,24 @@
 <?php
 
 session_start();
-	
+
+require 'database.php';
+
+if( isset($_SESSION['user_id']) ){
+
+	$records = $conn->prepare('SELECT id, username, email, password FROM users WHERE id = :id');
+	$records->bindParam(':id', $_SESSION['user_id']);
+	$records->execute();
+	$results = $records->fetch(PDO::FETCH_ASSOC);
+
+	$user = NULL;
+
+	if( count($results) > 0){
+		$user = $results;
+	}
+
+}
+
 ?>
 
 <!DOCTYPE html>
@@ -25,31 +42,33 @@ session_start();
 <body>
 
 	<div class="header">
-		<?php include 'menu.php';?>
+		<?php include 'assets/inc/menu.php';?>
 	</div>
 
-	<?php if( isset($_SESSION['user_id']) ): ?>
-		<br>
-        <br>
-        <br>
-		<br/><h2>Welcome <?= $_SESSION['user_name']; ?>, </h2>  
+        <div class="container-fluid">
+		   <div class="row">
+			<img src="img/header.jpg" class="img-responsive" style="width:100%; padding-top: none; background-repeat: no-repeat;">
+		   </div>
+		</div>
+
+	<?php if( !empty($user) ): ?>
+		<br/><h2>Welcome <?= $user['username']; ?>, </h2>  
 		 <h3 style="color:#D8D7D7;">You are successfully logged in and now you may proceed with the booking form. </h3>
 		<br/><br/>
         
-        <form action="form_handler.php" method="POST" class="topBefore">
+        <form action="insert.php" method="POST" class="topBefore">
 		
             <input id="f_name" type="text" placeholder="First Name" name="f_name" required="true" style="height:30px; border-radius:0px;">
             <input id="l_name" type="text" placeholder="Last Name" name="l_name" required="true" style="height:30px; border-radius:0px;">
             <input id="email" type="text" placeholder="Your Email" name="email" required="true" style="height:30px; border-radius:0px;">
             <input id="company" type="text" placeholder="Company" name="company" style="height:30px; border-radius:0px;"> 
-            <input id="phone" type="text" placeholder="Your Phone" name="phone" required="true" style="height:30px; border-radius:0px;"> <br>
-            <input id="car_model" type="text" placeholder="Which model car do You choose?" name="car_model" required="true" style="height:30px; border-radius:0px;">
+            <input id="phone" type="text" placeholder="Your Phone eg. 004559365339" name="phone" required="true" style="height:30px; border-radius:0px;"> <br>
+            <input id="car" type="text" placeholder="Which of our car models you prefer?" name="car" required="true" style="height:30px; border-radius:0px;">
             <input id="nr_cars" type="text" placeholder="How many cars?" name="nr_cars" required="true" style="height:30px; border-radius:0px;">
-            <input id="nr_passangers" type="text" placeholder="For how many people?" name="nr_ppl" style="height:30px; border-radius:0px;">
-            
+            <input id="ppl" type="text" placeholder="For how many people?" name="ppl" style="height:30px; border-radius:0px;">
             <input id="destination" type="text" placeholder="Do you have a specific destination?" name="destination" style="height:30px; border-radius:0px;">
-            <input id="descr" type="text" placeholder="Anything else in addition?" name="descr" required="true" style="height:60px; border-radius:0px;" ><br>
-            <input id="submit" type="submit" value="SUBMIT" style="height:60px; border-radius:0px;">
+            <input id="descr" type="text" placeholder="When will you need the car(s)?" name="descr" required="true" style="height:60px; border-radius:0px;" ><br>
+            <input id="submit" type="submit" name="submit" value="SUBMIT" style="height:60px; border-radius:0px;">
 
 		</form>
    
@@ -57,6 +76,8 @@ session_start();
 		<h2><a href="logout.php" style="text-decoration:none;">Logout?</a></h2>
 
 	<?php else: ?>
+		
+
 		<br>
         <br>
         <br><br>
@@ -66,6 +87,4 @@ session_start();
 		 
 	<?php endif; ?>
     <br /><br /><br /><br /><br /><br />
-<?php require 'footer.php';?>
-</body>
-</html>
+<?php require 'assets/inc/footer.php';?>

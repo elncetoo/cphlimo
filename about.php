@@ -11,29 +11,35 @@
 		<title>Copenhagen Limousine Service</title>
 		<!-- Bootstrap core CSS -->
 		<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+		<link href="assets/css/grid-style.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 		<!-- Custom styles  -->
-		<link href="assets/css/grid-style.css" rel="stylesheet">
+		
 	</head>
 	<body id="page-top" style="background-color: #000000;">
 		<div class="col-lg-12 text-center">
-			<?php include 'menu.php';?>
+			<?php include 'assets/inc/menu.php';?>
         </div>
-		<section id="portfolio">
+        <div class="container-fluid">
+		   <div class="row">
+			<img src="img/header.jpg" class="img-responsive" style="width:100%; padding-top: none; background-repeat: no-repeat;">
+		   </div>
+		</div>
+
+	    <section id="portfolio">
          <div class="container">
 			<div class="row">
             
 				<div class="col-lg-12 text-center">
                   <div class="section-title">
                   		
+                  <br>
+                  <h2 >ABOUT US</h2>
                         <br>
                         <br>
                         <br>
-						<h2>About Us</h2>
 						<br>
-                        <br>
-                        <br>
                       </div>
                                   
 				</div>
@@ -43,7 +49,7 @@
 				<div class="col-md-4 col-0-gutter">
 					<div class="ot-portfolio-item">
 						<figure class="effect-bubba">
-							<img src="img/portfolio-1.jpg" alt="img02" class="img-responsive" />
+							<img src="img/portfolio-items/portfolio-1.jpg" alt="img02" class="img-responsive" />
 							<figcaption>
 								<h2>THE COMPANY</h2>
 								<p>View more</p>
@@ -57,7 +63,7 @@
 				<div class="col-md-4 col-0-gutter">
 					<div class="ot-portfolio-item">
 						<figure class="effect-bubba">
-							<img src="img/portfolio-2.jpg" alt="img02" class="img-responsive" />
+							<img src="img/portfolio-items/portfolio-1.jpg" alt="img02" class="img-responsive" />
 							<figcaption>
 								<h2>OUR HISTORY</h2>
 								<p>View more</p>
@@ -70,7 +76,7 @@
                 <div class="col-md-4 col-0-gutter">
 					<div class="ot-portfolio-item">
 						<figure class="effect-bubba">
-							<img src="img/portfolio-3.jpg" alt="img02" class="img-responsive" />
+							<img src="img/portfolio-items/portfolio-1.jpg" alt="img02" class="img-responsive" />
 							<figcaption>
 								<h2>ARCHIVE</h2>
 								<p>View more</p>
@@ -93,7 +99,7 @@
 						<h4 class="modal-title" id="Modal-label-1">THE COMPANY</h4>
 					</div>
 					<div class="modal-body">
-						<img src="img/portfolio-1.jpg" alt="img01" class="img-responsive" />
+						<img src="img/thecompany.jpg" alt="img01" class="img-responsive" />
 						<div class="modal-works"><span>Denmark</span></div>
 <p>With its inception in the early nineteen sixties, and with roots of subsequently acquired limousine companies originating back to the nineteen fourties and fifties, Copenhagen Limousine Service is by far the oldest limousine service company in Denmark.</p>
 <p>By delivering the best of services and earning a reputation of continuously exceeding client’s expectations we have also evolved into becoming the largest operator in the business in the country – being just about triple in size compared to that of our nearest competitor.</p>
@@ -115,7 +121,7 @@
 						<h4 class="modal-title" id="Modal-label-2">OUR HISTORY</h4>
 					</div>
 					<div class="modal-body">
-						<img src="img/portfolio-2.jpg" alt="img01" class="img-responsive" />
+						<img src="img/history.jpg" alt="img01" class="img-responsive" />
 						<div class="modal-works"><span>Denmark</span></div>
 						<p>Copenhagen Limousine Service is the oldest limousine service company in Denmark and was founded by Axel Pitzner in 1962.</p>
 <p>The company, however, also comprises other operators that were found even earlier than this; Marmorbilen (founded in the beginning of the 1940’ies) and Auto Royale (founded in the 1950’ies).</p>
@@ -144,7 +150,7 @@
                                 <h4 class="modal-title" id="Modal-label-5">ARCHIVE</h4>
                             </div>
                             <div class="modal-body">
-                                <img src="img/portfolio-5.jpg" alt="img01" class="img-responsive" />
+                                <img src="img/archives.jpg" alt="img01" class="img-responsive" />
                                 <div class="modal-works"><span>Company</span></div>
                                 <p>In this section you can find small stories of previous events and assignments that we have handled and that we think might be of interest to the viewer.</p>
                         	</div>
@@ -160,7 +166,7 @@
                             </div>
                           </div>
                    
-   		 <?php require 'footer.php';?>
+   		 <?php require 'assets/inc/footer.php';?>
          <br>
          <br>
         

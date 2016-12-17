@@ -16,40 +16,43 @@
 		<!-- Custom styles  -->
 		<link href="assets/css/grid-style.css" rel="stylesheet">
 	</head>
-	<body id="page-top" style="background-color: #000000;">
+
+<body id="page-top" style="background-color: #000000;">
 		<div class="col-lg-12 text-center">
-			<?php include 'menu.php';?>
+			<?php include 'assets/inc/menu.php';?>
         </div>
+        
+ 		<div class="container-fluid">
+		   <div class="row">
+			<img src="img/header.jpg" class="img-responsive" style="width:100%; padding-top: none; background-repeat: no-repeat;">
+		   </div>
+		</div>
+
 		<section id="portfolio">
          <div class="container">
 			<div class="row">
             
-				<div class="col-lg-12 text-center">
+				<div class="col-lg-11 text-left" style="margin-left: 50px;">
                   <div class="section-title">
-                  		
-                        <br>
-                        <br>
-                        <br>
-						<h2 >News</h2>
+                  	<h2 style="padding-left: 45%;">News</h2>
 						<br>
                         <br>
-                        <br>
-  <p  style="padding:3%;">Make sure you come back and visit our website for news and special seasonal offers. We continuously 
-                        strive to come up with improved services and products, and occasionally we are able to present special offers 
-						that should suit and accommodate many needs and wishes.</p>
-                        <p> Be sure to visit us every now and again. </p>
-  <p style="padding:3%;">Should you indeed have suggestions for services, products or offers you would like to see in future,
-   						please do not hesitate to contact us by sending your suggestions to our emal.</p>
+                       <div style="padding-left:10%; padding-right:10%;">
+  <h4 style="padding-left:5%; color:#A7A7A7;">Make sure you come back and visit our website for news and special seasonal offers. We continuously strive to come up with improved services and products, and occasionally we are able to present special offers hat should suit and accommodate many needs and wishes.</h4>
+  <h4 style="padding-left:5%; color:#A7A7A7;"> Be sure to visit us every now and again. </h4>
+  <h4 style="padding-left:5%; color:#A7A7A7;">Should you indeed have suggestions for services, products or offers you would like to see in future,
+   						please do not hesitate to contact us by sending your suggestions to our emal.</h4>
                    </div>
-                                  
+                  </div>             
 				</div>
 			</div>
+			<br><br><br>
 			<div class="row row-0-gutter">
 				<!-- start portfolio item -->
 				<div class="col-md-4 col-0-gutter">
 					<div class="ot-portfolio-item">
 						<figure class="effect-bubba">
-							<img src="img/portfolio-1.jpg" alt="img02" class="img-responsive" />
+							<img src="img/portfolio-items/portfolio-1.jpg" alt="img02" class="img-responsive" />
 							<figcaption>
 								<h2>Sightseeing tour suggestions</h2>
 								<p>View more</p>
@@ -63,7 +66,7 @@
 				<div class="col-md-4 col-0-gutter">
 					<div class="ot-portfolio-item">
 						<figure class="effect-bubba">
-							<img src="img/portfolio-2.jpg" alt="img02" class="img-responsive" />
+							<img src="img/portfolio-items/portfolio-1.jpg" alt="img02" class="img-responsive" />
 							<figcaption>
 								<h2>Countdown to Copenhagen</h2>
 								<p>View more</p>
@@ -76,7 +79,7 @@
                 <div class="col-md-4 col-0-gutter">
 					<div class="ot-portfolio-item">
 						<figure class="effect-bubba">
-							<img src="img/portfolio-3.jpg" alt="img02" class="img-responsive" />
+							<img src="img/portfolio-items/portfolio-1.jpg" alt="img02" class="img-responsive" />
 							<figcaption>
 								<h2>ARCHIVE</h2>
 								<p>View more</p>
@@ -149,7 +152,7 @@
                                 <h4 class="modal-title" id="Modal-label-5">UEFA visits Copenhagen</h4>
                             </div>
                             <div class="modal-body">
-                                <img src="http://cphlimo.com/wp-content/uploads/2011/01/UEFA_2-564x289.png" alt="img01" class="img-responsive"  style="width: 100%;"/>
+                                <img src="img/news-3.jpg" alt="img01" class="img-responsive"  style="width: 100%;"/>
                                 <div class="modal-works"><span>Company</span></div>
                                 <p>The UEFA organization to visit Copenhagen</p>
 <p>Copenhagen Limousine Service welcomes the UEFA organization when they are visiting Copenhagen later in march for their XXXIII Ordinary Congress.</p></div>
@@ -164,7 +167,7 @@
                         </div>
                     </div>
                 </div>
-   		 <?php require 'footer.php';?>
+   		 <?php require 'assets/inc/footer.php';?>
          <br>
          <br>
         

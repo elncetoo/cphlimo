@@ -18,50 +18,54 @@
     
     <body id="page-top" style="background-color: #000000;">
 		<div class="col-lg-12 text-center">
-			<?php include 'menu.php';?>
+			<?php include 'assets/inc/menu.php';?>
     	</div>
     
           <article class="article">
-          <img src="img/banner-video.jpg" alt="buble" style="width:100%;height:100%;">
+          <iframe width="100%" height="700px" src="https://www.youtube.com/embed/SXDlIDW911M" frameborder="0" allowfullscreen></iframe>
+          
           </article>
         </br>
         </br>
         
         <div class="container">
-          <h1>Our Services</h1>
+          <h1>Our Services</h1><br>
           <div class="row">
     <div class="col-md-12">
       <div class="carousel slide multi-item-carousel" id="theCarousel">
         <div class="carousel-inner" width="60%">
           <div class="item active">
-            <div class="col-xs-4"><a href="services.php"><img src="img/services.png" class="img-responsive"></a></div>
+            <div class="col-xs-4"><a href="services.php"><img src="img/s1.jpg" class="img-responsive"></a></div>
           </div>
           <div class="item">
-            <div class="col-xs-4"><a href="services.php"><img src="img/services2.png" class="img-responsive"></a></div>
+            <div class="col-xs-4"><a href="services.php"><img src="img/s2.jpg" class="img-responsive"></a></div>
           </div>
           <div class="item">
-            <div class="col-xs-4"><a href="services.php"><img src="img/services3.png" class="img-responsive"></a></div>
+            <div class="col-xs-4"><a href="services.php"><img src="img/s3.jpg" class="img-responsive"></a></div>
           </div>
           <div class="item">
-            <div class="col-xs-4"><a href="services.php"><img src="img/services4.png" class="img-responsive"></a></div>
+            <div class="col-xs-4"><a href="services.php"><img src="img/s4.jpg" class="img-responsive"></a></div>
           </div>
           <div class="item">
-            <div class="col-xs-4"><a href="services.php"><img src="img/services5.png" class="img-responsive"></a></div>
+            <div class="col-xs-4"><a href="services.php"><img src="img/s5.jpg" class="img-responsive"></a></div>
           </div>
           <div class="item">
-            <div class="col-xs-4"><a href="services.php"><img src="img/services6.png" class="img-responsive"></a></div>
+            <div class="col-xs-4"><a href="services.php"><img src="img/s6.jpg" class="img-responsive"></a></div>
           </div>
           <div class="item">
-            <div class="col-xs-4"><a href="services.php"><img src="img/services7.png" class="img-responsive"></a></div>
+            <div class="col-xs-4"><a href="services.php"><img src="img/s7.jpg" class="img-responsive"></a></div>
           </div>
           <div class="item">
-            <div class="col-xs-4"><a href="services.php"><img src="img/services8.png" class="img-responsive"></a></div>
+            <div class="col-xs-4"><a href="services.php"><img src="img/s8.jpg" class="img-responsive"></a></div>
+          </div>
+          <div class="item">
+            <div class="col-xs-4"><a href="services.php"><img src="img/s9.jpg" class="img-responsive"></a></div>
           </div>
           
         </div>
         
-        <a class="left carousel-control" href="#theCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
-        <a class="right carousel-control" href="#theCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+        <a class="left carousel-control" href="#theCarousel" data-slide="prev" style="padding-left: 10%;"><i class="glyphicon glyphicon-chevron-left"></i></a>
+        <a class="right carousel-control" href="#theCarousel" data-slide="next" style="padding-right: 10%;"><i class="glyphicon glyphicon-chevron-right"></i></a>
       </div>
     </div>
   </div><!--slider end-->
@@ -72,6 +76,7 @@
         </br>
         </br>
    <div class="row row-0-gutter">    
+   <h1>Testimonials</h1>
 	<div class="row-md-6 text-center">
        <figure class="snip1533">
           <figcaption>
@@ -100,7 +105,7 @@
       </div><!--containerends here--> 
       </br>
       </br>
-	<?php require 'footer.php';?>
+	<?php require 'assets/inc/footer.php';?>
 
  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>

@@ -32,7 +32,7 @@
 	</head>
 	<body id="page-top" style="background-color: #000000;">
 		<div class="col-lg-12 text-center">
-			<?php include 'menu.php';?>
+			<?php include 'assets/inc/menu.php';?>
         </div>
 		<section id="portfolio">
          <div class="container">
@@ -56,48 +56,49 @@
                <!--form start-->   
                 <br>
                 <br>
-                <div class="row" style="background-color:#333333;">
-                <div class="col-lg-6 text-left" style="background-color:#333; padding-left: 5%;">
-                    <div class="row" style="padding-left:5%;">
+                <div class="row" style="background-color:#2D2D2D;">
+                <div class="col-lg-6 text-left" style="background-color:#2D2D2D; padding-left: 8%; padding-right: 6%;">
+                    <div class="row" style="padding-left:7%;">
                         <br>
                      <h2>CONTACT US:</h2>
                             <br>
-                            <h4>If you have any questions, suggestions <br />
-                                or comments, please feel free to send us<br />
-                                an e-mail via the form below.</h4>
+                            <h4 style="color: #B2B1B1;">If you have any questions, suggestions <br />
+                                or comments, please feel free to send <br />
+                                us an e-mail via the form below.</h4>
                         <div class="formrow">
                            
                             	<br>
                                 <form name="contactform" method="POST" action="contact-form-handler.php" class="form-horizontal" > 
                                     <h5>
-                                    <input type="text" name="name" id="name" placeholder="Name:" required="true" size="35" style="width:57%; border: solid 1px #b3aca7;">
+                                    <input type="text" name="name" id="name" placeholder="Name:" required="true" size="35" style="width:70%; border: solid 1px #b3aca7;">
                                     </h5>
                                     <h5>
-                                    <input type="email" name="email" id="email" placeholder="E-mail:" required="true" maxlength="80" size="35" style="width:57%; border: solid 1px #b3aca7;"><br>
+                                    <input type="email" name="email" id="email" placeholder="E-mail:" required="true" maxlength="80" size="35" style="width:70%; border: solid 1px #b3aca7;"><br>
                                     </h5>
-                                    <h5><textarea name="message" id="message" placeholder="Write Your Message Here:" required rows="4" cols="34" style="width:57%; border: solid 1px #b3aca7;"></textarea>
+                                    <h5><textarea name="message" id="message" placeholder="Write Your Message Here:" required rows="4" cols="34" style="width:70%; border: solid 1px #b3aca7;"></textarea>
                                     </h5>
                                     <div style="padding-left:none;">
-                                    <div class="g-recaptcha" data-sitekey="6Ldwrg0UAAAAAMbRYVzV1OB_gTc71kk1_cNoK-5v" style="width:57%;";></div></div><br>
-                                    <input id="submit" name="submit" type="submit" value="SUBMIT" style="width:57%; color: #fff; border: solid 1px #b3aca7;"><br><br><br>
+                                    <div class="g-recaptcha" data-sitekey="6Ldwrg0UAAAAAMbRYVzV1OB_gTc71kk1_cNoK-5v" style="width:70%;";></div></div><br>
+                                    <input id="submit" name="submit" type="submit" value="SUBMIT" style="width:70%; color: #fff; border: solid 1px #b3aca7;"><br><br><br>
                                 </form>
                           </div>
                       </div><!-- /row -->
                 </div> <!--form end--> 
-             <div class="col-lg-6 text-left" style="background-color:#333; padding-left: 5%;">
+             <div class="col-lg-6 text-left" style="background-color:#2D2D2D; padding-left: 5%;">
                     <div class="col">
-                        <div class="row" style="padding-left:5%;">
+                        <div class="row" style="padding-left:9%;">
                             <br>
                      	 <h2>ADDRESS:</h2>
                             <br>
-                                <h4 style="padding-top:none;">Bådehavnsgade 40</h4> 
-                                     <h4 style="padding-top:none;">2450 København SV</h4> 
-                                     <h4 style="padding-top:none;">Tel.: +45 70 260 601</h4> 
-                                     <h4 style="padding-top:none;">Fax.: +45 33 150 634</h4> 
+                                <h4 style="padding-top:none;color: #B2B1B1;">Bådehavnsgade 40</h4> 
+                                     <h4 style="padding-top:none; color: #B2B1B1;">2450 København SV</h4> 
+                                     <h4 style="padding-top:none; color: #B2B1B1;">Denmark</h4> 
+                                     <h4 style="padding-top:none; color: #B2B1B1;">Tel.: +45 70 260 601</h4> 
+                                     <h4 style="padding-top:none; color: #B2B1B1;">Fax.: +45 33 150 634</h4> 
                                 </h4>
                                 </div>
                                 <br><br><br><br>
-                                   <div style="padding-left:none;">
+                                   <div style="padding-left:5%;">
                                     <br>
                                     <br><br>
                                     <img src="img/social/no-circle/fb.png" alt="fb"><a href="https://www.facebook.com/Copenhagen-Limousine-Service-60297880809/?fref=ts" style="padding-right:1%;"></a>
@@ -112,7 +113,7 @@
                             </div> 
                           </div><!--row end-->
                          </div> <!--container end--> 
-   		 <?php require 'footer.php';?>
+   		 <?php require 'assets/inc/footer.php';?>
          <br>
          <br>
         

@@ -14,8 +14,7 @@ input[type="text"], input[type="password"]{
 	padding:10px;
 	display:block;
 	width:300px;
-	
-	 border: solid 1px #b3aca7;
+	border: solid 1px #b3aca7;
 	margin:20px auto;
 }
 
@@ -72,3 +71,5 @@ p {
 	letter-spacing: 0.2px;
 	color: #252525;
 }
+
+

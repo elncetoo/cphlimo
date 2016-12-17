@@ -62,7 +62,7 @@ if( empty($errors))
         </head>
         <body id="page-top" style="background-color: #000000;">
             <div class="col-lg-12 text-center">
-                <?php include 'menu.php';?>
+                <?php include 'assets/inc/menu.php';?>
             </div>
             <section id="portfolio">
              <div class="container">
@@ -149,7 +149,7 @@ if( empty($errors))
                             </div> 
                                 </div> <!--row end--> 
                              </div> <!--container end--> 
-             <?php require 'footer.php';?>
+             <?php require 'assets/inc/footer.php';?>
              <br>
              <br>
             

@@ -17,26 +17,31 @@
 	</head>
 	<body id="page-top" style="background-color: #000000;">
 		<div class="col-lg-12 text-center">
-			<?php include 'menu.php';?>
+			<?php include 'assets/inc/menu.php';?>
         </div>
+		<div class="container-fluid">
+		   <div class="row">
+			<img src="img/header.jpg" class="img-responsive" style="width:100%; padding-top: none; background-repeat: no-repeat;">
+		   </div>
+		</div>
+
 		<section id="portfolio">
          <div class="container">
 			<div class="row">
             
-				<div class="col-lg-12 text-center">
+				<div class="col-lg-12 text-left">
                   <div class="section-title">
                   		
-                        <br>
-						<h2>Our Cars</h2>
+                        <h2 style="padding-left: 40%;">Our Cars</h2>
 						<br>
                         <br>
-                        <br>
-                        <br>
-                        <h4 style="padding-left:5%; color:#A7A7A7;">Quality Driving. We have a wide selection of vehicles at your disposal. We drive only the safest, most comfortable cars.</h4>
-                        <h4 style="padding-left:5%; color:#A7A7A7;">For occasions demanding several vehicles, we are pleased that we are able to provide several high-end luxury or business</h4>
-                        <h4 style="padding-left:5%; color:#A7A7A7;">vehicles that are completely identical, thus giving your venue to most professional appearance.</h4>
-						<br>
-                        <br>
+                       
+                        <div style="padding-left:10%; padding-right:10%;">
+	                        <h4 style="padding-left:5%; color:#A7A7A7;">Quality Driving. We have a wide selection of vehicles at your disposal. We drive only the safest, most comfortable cars.</h4>
+	                        <h4 style="padding-left:5%; color:#A7A7A7;">For occasions demanding several vehicles, we are pleased that we are able to provide several high-end luxury or business vehicles that are completely identical, thus giving your venue to most professional appearance.</h4>
+							<br>
+	                        <br>
+                        </div>
                     </div>
 				</div>
 			</div>
@@ -59,10 +64,10 @@
 				<div class="col-md-6 text-center">
 					<div class="ot-portfolio-item"> <br><br><br><br><br><br> <br>
 						<h4 class="carh">Mercedes Benz E-class</h4> <br>
-						<img class="carextras" src="img/s1.png" alt="car seats" width="10%">
-						<img class="carextras" src="img/l1.png" alt="luggage" width="10%">
-						<img class="carextras" src="img/air.png" alt="air conditioning" width="10%">
-						<img class="carextras" src="img/gpss.png" alt="gps" width="10%">
+						<img class="carextras" src="img/cars/s1.png" alt="car seats" width="10%">
+						<img class="carextras" src="img/cars/l1.png" alt="luggage" width="10%">
+						<img class="carextras" src="img/cars/air.png" alt="air conditioning" width="10%">
+						<img class="carextras" src="img/cars/gpss.png" alt="gps" width="10%">
                     </div>
 				</div>
 				<!-- end portfolio item -->
@@ -72,10 +77,10 @@
 				 <div class="col-md-6 text-center">
 					<div class="ot-portfolio-item"> <br><br><br><br><br><br> <br>
 						<h4 class="carh">Mercedes Benz S-class</h4> <br>
-						<img class="carextras" src="img/s2.png" alt="car seats" width="10%">
-						<img class="carextras" src="img/l2.png" alt="luggage" width="10%">
-						<img class="carextras" src="img/air.png" alt="air conditioning" width="10%">
-						<img class="carextras" src="img/gpss.png" alt="gps" width="10%">
+						<img class="carextras" src="img/cars/s2.png" alt="car seats" width="10%">
+						<img class="carextras" src="img/cars/l2.png" alt="luggage" width="10%">
+						<img class="carextras" src="img/cars/air.png" alt="air conditioning" width="10%">
+						<img class="carextras" src="img/cars/gpss.png" alt="gps" width="10%">
                     </div>
 				</div>
                 <!-- end portfolio item -->
@@ -113,10 +118,10 @@
 				<div class="col-md-6 text-center">
 					<div class="ot-portfolio-item"> <br><br><br><br><br><br> <br>
 						<h4 class="carh">VW Multivan</h4> <br>
-						<img class="carextras" src="img/s3.png" alt="car seats" width="10%">
-						<img class="carextras" src="img/l3.png" alt="luggage" width="10%">
-						<img class="carextras" src="img/air.png" alt="air conditioning" width="10%">
-						<img class="carextras" src="img/gpss.png" alt="gps" width="10%">
+						<img class="carextras" src="img/cars/s3.png" alt="car seats" width="10%">
+						<img class="carextras" src="img/cars/l3.png" alt="luggage" width="10%">
+						<img class="carextras" src="img/cars/air.png" alt="air conditioning" width="10%">
+						<img class="carextras" src="img/cars/gpss.png" alt="gps" width="10%">
                     </div>
 				</div>
 				<!-- end portfolio item -->
@@ -127,10 +132,10 @@
 				<div class="col-md-6 text-center">
 					<div class="ot-portfolio-item"> <br><br><br><br><br><br> <br>
 						<h4 class="carh">Mercedes Benz Viano</h4> <br>
-						<img class="carextras" src="img/s5.png" alt="car seats" width="10%">
-						<img class="carextras" src="img/l5.png" alt="luggage" width="10%">
-						<img class="carextras" src="img/air.png" alt="air conditioning" width="10%">
-						<img class="carextras" src="img/gpss.png" alt="gps" width="10%">
+						<img class="carextras" src="img/cars/s5.png" alt="car seats" width="10%">
+						<img class="carextras" src="img/cars/l5.png" alt="luggage" width="10%">
+						<img class="carextras" src="img/cars/air.png" alt="air conditioning" width="10%">
+						<img class="carextras" src="img/cars/gpss.png" alt="gps" width="10%">
                     </div>
 				</div>
 				<!-- end portfolio item -->
@@ -169,10 +174,10 @@
 				<div class="col-md-6 text-center">
 					<div class="ot-portfolio-item"> <br><br><br><br><br><br> <br>
 						<h4 class="carh">Mercedes Sprinter Minibus</h4> <br>
-						<img class="carextras" src="img/s4.png" alt="car seats" width="10%">
-						<img class="carextras" src="img/l2.png" alt="luggage" width="10%">
-						<img class="carextras" src="img/air.png" alt="air conditioning" width="10%">
-						<img class="carextras" src="img/gpss.png" alt="gps" width="10%">
+						<img class="carextras" src="img/cars/s4.png" alt="car seats" width="10%">
+						<img class="carextras" src="img/cars/l2.png" alt="luggage" width="10%">
+						<img class="carextras" src="img/cars/air.png" alt="air conditioning" width="10%">
+						<img class="carextras" src="img/cars/gpss.png" alt="gps" width="10%">
                     </div>
 				</div>
 				<!-- end portfolio item -->
@@ -286,7 +291,7 @@
 			</div>
 		</div>
         
-   		 <?php require 'footer.php';?>
+   		 <?php require 'assets/inc/footer.php';?>
          <br>
          <br>
         
