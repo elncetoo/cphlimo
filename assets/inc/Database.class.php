@@ -1,10 +1,10 @@
 <?php
 class Database
 {
-    private static $dbName = 'cphlimo';
-    private static $dbHost = 'localhost:3307';
-    private static $dbUsername = 'root';
-    private static $dbUserPassword = 'root';
+    private static $dbName = 'creartiv_cphlimo';
+    private static $dbHost = 'localhost';
+    private static $dbUsername = 'creartiv_admin';
+    private static $dbUserPassword = 'nG2v2!t#NfFU';
 
     private static $cont = null;
 

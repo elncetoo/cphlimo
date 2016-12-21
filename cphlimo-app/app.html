@@ -1,0 +1,703 @@
+<!-- ABOUT - ALL -->
+<!-- SERVICES - FIRST 2 -->
+<!-- CARS - FIRST 2 -->
+<!-- NEWS - NONE IS FILLED -->
+
+
+<!doctype html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>Copenhagen Limousine Service</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+           <link rel="stylesheet" href="css/style.css">
+           <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+					 <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        	 <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+					 <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+           <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+           <script src="http://maps.google.com/maps/api/js?v=3sensor=false"></script>  
+           <script src="js/map.js" type="text/javascript"></script>
+           <script>
+			$(document).on("pagecreate","#pageone",function(){
+			  $(document).on("scrollstop",function(){
+			   });
+			});
+			</script>
+     
+           
+    </head>
+
+    <body>
+    		<!-- HOME PAGE START -->
+        <div data-role="page" id="home" style="background-color: black;">
+            <div data-role="panel" id="overlayPanel" data-display="overlay" data-theme="b" data-position-fixed="true">
+                  <ul data-role="listview">
+                    <li data-role="list-divider">MENU</li>
+												<li><a href="#about" data-transition="slide">About</a></li>
+                        <li><a href="#services" data-transition="slide">Services</a></li>
+                        <li><a href="#cars" data-transition="slide">Cars</a></li>
+                        <li><a href="#booking" data-transition="slide">Booking</a></li>
+                        <li><a href="#news" data-transition="slide">News</a></li>
+												<li><a href="#contact" data-transition="slide">Contact</a></li>
+                        <li data-role="list-divider"></li>
+                     <li data-icon="delete" data-rel="close"><a href="#" data-transition="slide">CLOSE</a></li>
+                 		</ul><!-- panel content ends here -->
+            </div><!-- /panel -->
+           
+            
+          <div data-role="header" data-theme="b" data-position="fixed">
+               <a href="#overlayPanel" data-transition="slide" class="ui-btn ui-corner-all ui-icon-bars ui-shadow-icon ui-btn-icon-notext">Menu</a>
+                <h1 style="font-family: 'Raleway';">Copenhagen Limo</h1>
+                <a href="#home" data-transition="slide" data-role="button" data-icon="myiconh" data-iconpos="notext">home</a>
+   		  </div>
+          
+              <div data-role="main" class="ui-content" style="background-color: black;">
+                            
+                <ul id="mylist" data-role="listview" data-inset="true" data-theme="b" >
+                    <li ><a href="#about" data-transition="slide"><img src="img/about.png" alt="food">
+                        <h2 style="padding-top: 10px; font-family: 'Raleway';">About us</h2>
+                        </a>
+                    </li>
+                    <li><a href="#services" data-transition="slide"><img src="img/services.png" alt="art">
+                        <h2 style="padding-top: 10px; font-family: 'Raleway';">Services</h2>
+                        </a>
+                    </li>
+                    <li><a href="#cars" data-transition="slide"><img src="img/cars.png" alt="nightlife">
+                        <h2 style="padding-top: 10px; font-family: 'Raleway';">Our cars</h2>
+                        </a>
+                    </li>
+                    <li><a href="#booking" data-transition="slide"><img src="img/booking.png" alt="social">
+                        <h2 style="padding-top: 10px; font-family: 'Raleway';">Booking</h2>
+                        </a>
+                    </li>
+										 <li><a href="#news" data-transition="slide"><img src="img/news.png" alt="vintage">
+                        <h2 style="padding-top: 10px; font-family: 'Raleway';">News</h2>
+                        </a>
+                    </li>
+									 <li><a href="#contact" data-transition="slide"><img src="img/contact.png" alt="vintage">
+                        <h2 style="padding-top: 10px; font-family: 'Raleway';">Contact</h2>
+                        </a>
+                    </li>
+                </ul>
+                             
+             </div><!--end content-->
+              <div data-role="footer" data-theme="b" data-position="fixed">
+                <div align="center" style="padding: 2.5%;">
+                <a href="index.html" data-role="button" data-icon="myiconfb" data-iconpos="notext">fb</a>
+                <a href="index.html" data-role="button" data-icon="myiconin" data-iconpos="notext">in</a>
+                <p align="center" style="font-family: 'Raleway';">&copy; 2016 <a style="text-decoration:none;" href="http://www.cphbusiness.dk/" target="new">CPH Business</a>. All rights reserved.</p>
+				</div>
+                
+              </div>
+           </div><!--	HOME PAGE END -->
+            
+            <!-- ABOUT PAGE  --> 
+           <div data-role="page" id="about" style="background-color: black;">
+           <div data-role="panel" id="overlayPanel1" data-display="overlay" data-theme="b" data-position-fixed="true">
+                  <ul data-role="listview">
+                    <li data-role="list-divider">MENU</li>
+												<li><a href="#about" data-transition="slide">About</a></li>
+                        <li><a href="#services" data-transition="slide">Services</a></li>
+                        <li><a href="#cars" data-transition="slide">Cars</a></li>
+                        <li><a href="#booking" data-transition="slide">Booking</a></li>
+                        <li><a href="#news" data-transition="slide">News</a></li>
+												<li><a href="#contact" data-transition="slide">Contact</a></li>
+                        <li data-role="list-divider"></li>
+                     <li data-icon="delete" data-rel="close"><a href="#" data-transition="slide">CLOSE</a></li>
+                 		</ul><!-- panel content ends here -->
+            </div><!-- /panel -->
+                       
+          <div data-role="header" data-theme="b" data-position="fixed">
+               <a href="#overlayPanel1" data-transition="slide" class="ui-btn ui-corner-all ui-icon-bars ui-shadow-icon ui-btn-icon-notext">Menu</a>
+                <h1 style="font-family: 'Raleway';">Copenhagen Limo</h1>
+                <a href="#home" data-transition="slide" data-role="button" data-icon="myiconh" data-iconpos="notext">home</a>
+   		  </div>
+          
+              <div data-role="main" class="ui-content">
+                <img alt="food category image" src="img/about1.jpg" width="100%">
+                <h1 style="text-align:center; font-family: 'Raleway'; color: lightgrey">About us</h1>
+                       <div class="choice_list">
+                         <ul data-role="listview" data-inset="true" data-theme="b">
+                            <li><a href="#company" data-transition="slide"><h2 style="padding:10px 0 10px 0; text-align:center; font-family: 'raleway'"> The company</h2></a></li>
+                             <li><a href="#history" data-transition="slide"><h2 style="padding:10px 0 10px 0; text-align:center; font-family: 'raleway'" > Our history</h2></a></li>
+                             <li><a href="#archive" data-transition="slide"><h2 style="padding:10px 0 10px 0; text-align:center; font-family: 'raleway'" >Archive</h2></a></li>
+                            </ul>
+                        </div>
+                  <a href="#" class="ui-btn ui-corner-all" data-theme="b" data-rel="back" style="color: white; font-family: 'raleway'">Go Back</a>
+             </div><!--end content-->
+              <div data-role="footer" data-theme="b" data-position="fixed">
+                <div align="center" style="padding: 1%;">
+                <a href="index.html" data-role="button" data-icon="myiconfb" data-iconpos="notext">fb</a>
+                <a href="index.html" data-role="button" data-icon="myiconin" data-iconpos="notext">in</a>
+                <p align="center">&copy; 2016 <a style="text-decoration:none;" href="http://www.cphbusiness.dk/" target="new">CPH Business</a>. All rights reserved.</p>
+				</div>
+              </div>
+             
+           </div><!-- END ABOUT PAGE -->
+           
+           
+        <!-- ABOUT - COMPANY -->
+        
+            <div data-role="page" id="company" style="background-color: black; font-family: 'raleway'">
+                <div data-role="panel" id="overlayPane31" data-display="overlay" data-theme="b">
+                   <ul data-role="listview">
+                    		<li data-role="list-divider">MENU</li>
+												<li><a href="#about" data-transition="slide">About</a></li>
+                        <li><a href="#services" data-transition="slide">Services</a></li>
+                        <li><a href="#cars" data-transition="slide">Cars</a></li>
+                        <li><a href="#booking" data-transition="slide">Booking</a></li>
+                        <li><a href="#news" data-transition="slide">News</a></li>
+												<li><a href="#contact" data-transition="slide">Contact</a></li>
+                        <li data-role="list-divider"></li>
+                     		<li data-icon="delete" data-rel="close"><a href="#" data-transition="slide">CLOSE</a></li>
+                 		</ul><!-- panel content ends here -->
+                    </div><!-- /panel -->
+
+                  <div data-role="header" data-theme="b" data-position="fixed">
+                       <a href="#overlayPane31" data-transition="slide" class="ui-btn ui-corner-all ui-icon-bars ui-shadow-icon ui-btn-icon-notext">Menu</a>
+                        <h1>Copenhagen Limo</h1>
+                        <a href="#home" data-transition="slide" data-role="button" data-icon="myiconh" data-iconpos="notext">www</a>
+                  </div>
+                    
+                <div data-role="main" class="ui-content">
+                   <img width="100%" src="img/about3.jpg" alt="old company photo"/>
+                       <h1 style="text-align:center; color: white">The company</h1>
+               			<div id="description">
+                              <p style="color: lightgrey; text-align: justify;">With its inception in the early nineteen sixties, and with roots of subsequently acquired limousine companies originating back to the nineteen fourties and fifties, Copenhagen Limousine Service is by far the oldest limousine service company in Denmark.<br><br> By delivering the best of services and earning a reputation of continuously exceeding client’s expectations we have also evolved into becoming the largest operator in the business in the country – being just about triple in size compared to that of our nearest competitor.<br></p>
+                            </div>
+                            
+							
+                             <a href="#" class="ui-btn ui-corner-all" data-theme="a" data-rel="back" style="color:white">Go Back</a> 
+                            </div>  
+                           
+                           <div data-role="footer" data-theme="b" data-position="fixed">
+                            <div align="center" style="padding: 1%;">
+                                <a href="index.html" data-role="button" data-icon="myiconfb" data-iconpos="notext">fb</a>
+                                <a href="index.html" data-role="button" data-icon="myiconin" data-iconpos="notext">in</a>
+                                <p align="center">&copy; 2016 <a style="text-decoration:none;" href="http://www.cphbusiness.dk/" target="new">CPH Business</a>. All rights reserved.</p>
+                            </div>
+                         </div>
+                       </div> <!-- END COMPANY -->
+        
+        <!-- ABOUT - HISTORY -->
+        
+            <div data-role="page" id="history" style="background-color: black; font-family: 'raleway'">
+                <div data-role="panel" id="overlayPane32" data-display="overlay" data-theme="b">
+                          <ul data-role="listview">
+                    		<li data-role="list-divider">MENU</li>
+												<li><a href="#about" data-transition="slide">About</a></li>
+                        <li><a href="#services" data-transition="slide">Services</a></li>
+                        <li><a href="#cars" data-transition="slide">Cars</a></li>
+                        <li><a href="#booking" data-transition="slide">Booking</a></li>
+                        <li><a href="#news" data-transition="slide">News</a></li>
+												<li><a href="#contact" data-transition="slide">Contact</a></li>
+                        <li data-role="list-divider"></li>
+                     		<li data-icon="delete" data-rel="close"><a href="#" data-transition="slide">CLOSE</a></li>
+                 		</ul><!-- panel content ends here -->
+                    </div><!-- /panel -->
+
+                  <div data-role="header" data-theme="b" data-position="fixed">
+                       <a href="#overlayPane32" data-transition="slide" class="ui-btn ui-corner-all ui-icon-bars ui-shadow-icon ui-btn-icon-notext">Menu</a>
+                        <h1>Copenhagen Limo</h1>
+                        <a href="#home" data-transition="slide" data-role="button" data-icon="myiconh" data-iconpos="notext">www</a>
+                  </div>
+                    
+               		<div data-role="main" class="ui-content">
+                   <img width="100%" src="img/about2.jpg" alt="old company photo"/>
+                       <h1 style="text-align:center; color: white">Our history</h1>
+               			<div id="description">
+                              <p style="color: lightgrey; text-align: justify;">Copenhagen Limousine Service is the oldest limousine service company in Denmark and was founded by Axel Pitzner in 1962.The company, however, also comprises other operators that were found even earlier than this; Marmorbilen (founded in the beginning of the 1940’ies) and Auto Royale (founded in the 1950’ies).<br><br>Once the service with private cars with chauffeurs was opened up for, soon the idea of limousine service was fostered and larger and more luxurious and prestigious limousines were purchased and were on offer.<br><br>Our commitment to inducing ever improvements in everything that we do and a continuous search of excellence, striving to supersede our customers every expectations has been a driving force in our expansion of the business, tying closer knots with the clients and the community around us.<br></p>
+                            </div>
+                            
+							
+                             <a href="#" class="ui-btn ui-corner-all" data-theme="a" data-rel="back" style="color:white">Go Back</a> 
+                            </div>  
+                           
+                           <div data-role="footer" data-theme="b" data-position="fixed">
+                            <div align="center" style="padding: 1%;">
+                                <a href="index.html" data-role="button" data-icon="myiconfb" data-iconpos="notext">fb</a>
+                                <a href="index.html" data-role="button" data-icon="myiconin" data-iconpos="notext">in</a>          <p align="center">&copy; 2016 <a style="text-decoration:none;" href="http://www.cphbusiness.dk/" target="new">CPH Business</a>. All rights reserved.</p>
+                            </div>
+                         </div>
+                       </div> <!-- END history -->
+                
+                
+        <!-- ABOUT - ARCHIVE -->
+                <div data-role="page" id="archive" style="background-color: black; font-family: 'raleway'">
+                        <div data-role="panel" id="overlayPane33" data-display="overlay" data-theme="b">
+                                  <ul data-role="listview">
+                    		<li data-role="list-divider">MENU</li>
+												<li><a href="#about" data-transition="slide">About</a></li>
+                        <li><a href="#services" data-transition="slide">Services</a></li>
+                        <li><a href="#cars" data-transition="slide">Cars</a></li>
+                        <li><a href="#booking" data-transition="slide">Booking</a></li>
+                        <li><a href="#news" data-transition="slide">News</a></li>
+												<li><a href="#contact" data-transition="slide">Contact</a></li>
+                        <li data-role="list-divider"></li>
+                     		<li data-icon="delete" data-rel="close"><a href="#" data-transition="slide">CLOSE</a></li>
+                 		</ul><!-- panel content ends here -->
+                            </div><!-- /panel -->
+
+                          <div data-role="header" data-theme="b" data-position="fixed">
+                              <a href="#overlayPane33" data-transition="slide" class="ui-btn ui-corner-all ui-icon-bars ui-shadow-icon ui-btn-icon-notext">Menu</a>
+                                <h1>Copenhagen Limo</h1>
+                              <a href="#home" data-transition="slide" data-role="button" data-icon="myiconh" data-iconpos="notext">www</a>
+                          </div>
+                          
+						<div data-role="main" class="ui-content">
+                   <img width="100%" src="img/about4.jpg" alt="old company photo"/>
+                       <h1 style="text-align:center; color: white">Archive</h1>
+               			<div id="description">
+                              <p style="color: lightgrey; text-align: justify;">In this section you can find small stories of previous events and assignments that we have handled and that we think might be of interest to the viewer.<br></p>
+											<img width="100%" src="http://cphlimo.com/wp-content/uploads/2011/01/BW.jpg" alt="old photo" />
+											<img width="100%" src="http://cphlimo.com/wp-content/uploads/2011/01/Krushchev_photos.jpg" alt="old company photo"/>
+											<img width="100%" src="http://cphlimo.com/wp-content/uploads/2011/01/Krushchev_car_surrounded_by_police_excort1.jpg" alt="old company photo"/>
+											<img width="100%" src="http://cphlimo.com/wp-content/uploads/2011/01/car_in_car_line_up.jpg" alt="old company photo"/>
+                            </div>
+                            
+							
+                             <a href="#" class="ui-btn ui-corner-all" data-theme="a" data-rel="back" style="color:white">Go Back</a> 
+                            </div>  
+                           
+                           <div data-role="footer" data-theme="b" data-position="fixed">
+                            <div align="center" style="padding: 1%;">
+                                <a href="index.html" data-role="button" data-icon="myiconfb" data-iconpos="notext">fb</a>
+                                <a href="index.html" data-role="button" data-icon="myiconin" data-iconpos="notext">in</a>
+                                <p align="center">&copy; 2016 <a style="text-decoration:none;" href="http://www.cphbusiness.dk/" target="new">CPH Business</a>. All rights reserved.</p>
+                            </div>
+                         </div>
+                       </div> <!-- END archive -->
+                       
+           <!--  SERVICES PAGE -->
+             <div data-role="page" id="services" style="background-color: black;">
+            <div data-role="panel" id="overlayPanel2" data-display="overlay" data-theme="b" data-position-fixed="true">
+                <ul data-role="listview">
+                    		<li data-role="list-divider">MENU</li>
+												<li><a href="#about" data-transition="slide">About</a></li>
+                        <li><a href="#services" data-transition="slide">Services</a></li>
+                        <li><a href="#cars" data-transition="slide">Cars</a></li>
+                        <li><a href="#booking" data-transition="slide">Booking</a></li>
+                        <li><a href="#news" data-transition="slide">News</a></li>
+												<li><a href="#contact" data-transition="slide">Contact</a></li>
+                        <li data-role="list-divider"></li>
+                     		<li data-icon="delete" data-rel="close"><a href="#" data-transition="slide">CLOSE</a></li>
+                 		</ul><!-- panel content ends here -->
+            </div><!-- /panel -->
+                       
+          <div data-role="header" data-theme="b" data-position="fixed">
+               <a href="#overlayPanel2" data-transition="slide" class="ui-btn ui-corner-all ui-icon-bars ui-shadow-icon ui-btn-icon-notext">Menu</a>
+                <h1>Copenhagen Limo</h1>
+                <a href="#home" data-transition="slide" data-role="button" data-icon="myiconh" data-iconpos="notext">home</a>
+   		  </div>
+          <div data-role="main" class="ui-content">
+                <img alt="food category image" src="img/services1.jpg" width="100%">
+                <h1 style="text-align:center; font-family: 'Raleway'; color: lightgrey">Our services</h1>
+                       <div class="choice_list">
+                         <ul data-role="listview" data-inset="true" data-theme="b">
+                          
+											<li><a href="#roadshow" data-transition="slide" ><img src="img/s1.png"/><h2 style="padding:10px 0 10px 0; text-align:center; font-family: 'raleway'">Road show</h2></a> </li>
+                      <li><a href="#transfer" data-transition="slide"><img src="img/s2.png"/><h2 style="padding:10px 0 10px 0; text-align:center; font-family: 'raleway'">Transfer services</h2></a> </li>
+                      <li><a href="#pendler" data-transition="slide"><img src="img/s3.png"/><h2 style="padding:10px 0 10px 0; text-align:center; font-family: 'raleway'">Pendler services</h2></a> </li>
+											<li><a href="#crew" data-transition="slide"><img src="img/s4.png"/><h2 style="padding:10px 0 10px 0; text-align:center; font-family: 'raleway'">Crew transportation</h2></a> </li>
+											<li><a href="#worldwide" data-transition="slide"><img src="img/s5.png"/><h2 style="padding:10px 0 10px 0; text-align:center; font-family: 'raleway'">WW limo services</h2></a> </li>
+											<li><a href="#angels" data-transition="slide"><img src="img/s6.png"/><h2 style="padding:10px 0 10px 0; text-align:center; font-family: 'raleway'">Guardian angels</h2></a> </li>
+											<li><a href="#body" data-transition="slide"><img src="img/s7.png"/><h2 style="padding:10px 0 10px 0; text-align:center; font-family: 'raleway'">Security & bodyguard</h2></a> </li>
+											<li><a href="#time" data-transition="slide"><img src="img/s8.png"/><h2 style="padding:10px 0 10px 0; text-align:center; font-family: 'raleway'">Use your transportation time</h2></a> </li>
+											<li><a href="#sightseeing" data-transition="slide"><img src="img/s9.png"/><h2 style="padding:10px 0 10px 0; text-align:center; font-family: 'raleway'">Sightseeing</h2></a> </li>
+                    </ul>
+                   </div>
+                  <a href="#" class="ui-btn ui-corner-all" data-theme="b" data-rel="back" style="color: white; font-family: 'raleway'" data-transition="slide">Go Back</a>
+             </div><!--end content-->
+              <div data-role="footer" data-theme="b" data-position="fixed">
+                <div align="center" style="padding: 1%;">
+                <a href="index.html" data-role="button" data-icon="myiconfb" data-iconpos="notext">fb</a>
+                <a href="index.html" data-role="button" data-icon="myiconin" data-iconpos="notext">in</a>
+                <p align="center">&copy; 2016 <a style="text-decoration:none;" href="http://www.cphbusiness.dk/" target="new">CPH Business</a>. All rights reserved.</p>
+				</div>
+              </div>
+             
+           </div><!--end services page tree-->
+             
+      <!-- SERVICES 1 - ROADSHOW -->
+           
+            <div data-role="page" id="roadshow" data-add-back-btn="true" style="background-color: black; font-family: 'raleway'">
+           		<div data-role="panel" id="overlayPanel7" data-display="overlay" data-theme="b" data-position-fixed="true">
+                  <ul data-role="listview">
+                    		<li data-role="list-divider">MENU</li>
+												<li><a href="#about" data-transition="slide">About</a></li>
+                        <li><a href="#services" data-transition="slide">Services</a></li>
+                        <li><a href="#cars" data-transition="slide">Cars</a></li>
+                        <li><a href="#booking" data-transition="slide">Booking</a></li>
+                        <li><a href="#news" data-transition="slide">News</a></li>
+												<li><a href="#contact" data-transition="slide">Contact</a></li>
+                        <li data-role="list-divider"></li>
+                     		<li data-icon="delete" data-rel="close"><a href="#" data-transition="slide">CLOSE</a></li>
+                 		</ul><!-- panel content ends here -->
+            </div><!-- /panel -->
+            
+             <div data-role="header" data-theme="b" data-position="fixed">
+                              <a href="#overlayPane33" data-transition="slide" class="ui-btn ui-corner-all ui-icon-bars ui-shadow-icon ui-btn-icon-notext">Menu</a>
+                                <h1>Copenhagen Limo</h1>
+                              <a href="#home" data-transition="slide" data-role="button" data-icon="myiconh" data-iconpos="notext">www</a>
+                          </div>
+                          
+						<div data-role="main" class="ui-content">
+                   <img width="100%" src="img/s11.jpg" alt="old company photo"/>
+                       <h1 style="text-align:center; color: white">Roadshow</h1>
+               			<div id="description">
+                              <p style="color: lightgrey; text-align: justify;">Copenhagen Limousine Service has unmatched experience of handling custom transportation services for Road Shows in Denmark. Throughout many, many years Copenhagen Limousine Service has delivered Road Show services to a magnitude of very highly discerned customers, professionals, conglomerates and multinational companies and organisations.<br><br>Copenhagen Limousine Service has time after time proven to be the service provider that delivers and that takes the worry out of the equation when it comes to the handling of the ground transportation for such Road Shows.<br><br>There is no doubt that we possess the largest expertise in carrying out professional Road Shows in Denmark and we would love to serve you too. Remember also that we can aid you in your ground transportation needs where they may be required – i.e. also outside of Denmark.<br></p>
+                            </div>
+                            
+															 <a href="#booking" class="ui-btn ui-corner-all" data-theme="a" style="color:white">Book a car</a>
+                             <a href="#" class="ui-btn ui-corner-all" data-theme="a" data-rel="back" style="color:white">Go Back</a> 
+                            </div>  
+                           
+                           <div data-role="footer" data-theme="b" data-position="fixed">
+                            <div align="center" style="padding: 1%;">
+                                <a href="index.html" data-role="button" data-icon="myiconfb" data-iconpos="notext">fb</a>
+                                <a href="index.html" data-role="button" data-icon="myiconin" data-iconpos="notext">in</a>
+                                <p align="center">&copy; 2016 <a style="text-decoration:none;" href="http://www.cphbusiness.dk/" target="new">CPH Business</a>. All rights reserved.</p>
+                            </div>
+                         </div>
+                       </div> <!-- /ROADSHOW -->
+			
+      <!-- SERVICES 2 - TRANSFER SERVICES -->         
+                <div data-role="page" id="transfer" data-add-back-btn="true" style="background-color: black; font-family: 'raleway'">
+                    <div data-role="panel" id="overlayPanel8" data-display="overlay" data-theme="b" data-position-fixed="true">
+                      <ul data-role="listview">
+                    		<li data-role="list-divider">MENU</li>
+												<li><a href="#about" data-transition="slide">About</a></li>
+                        <li><a href="#services" data-transition="slide">Services</a></li>
+                        <li><a href="#cars" data-transition="slide">Cars</a></li>
+                        <li><a href="#booking" data-transition="slide">Booking</a></li>
+                        <li><a href="#news" data-transition="slide">News</a></li>
+												<li><a href="#contact" data-transition="slide">Contact</a></li>
+                        <li data-role="list-divider"></li>
+                     		<li data-icon="delete" data-rel="close"><a href="#" data-transition="slide">CLOSE</a></li>
+                 		</ul><!-- panel content ends here -->
+                </div><!-- /panel -->
+            
+             <div data-role="header" data-theme="b" data-position="fixed">
+                <a href="#overlayPanel8" data-transition="slide" class="ui-btn ui-corner-all ui-icon-bars ui-shadow-icon ui-btn-icon-notext">Menu</a>
+                <h1>Copenhagen Limo</h1>
+                <a href="#home" data-transition="slide" data-role="button" data-icon="myiconh" data-iconpos="notext">home</a>
+   		     </div>
+               
+            <div data-role="main" class="ui-content">
+                   <img width="100%" src="img/s22.png" alt="old company photo"/>
+                       <h1 style="text-align:center; color: white">Transfer services</h1>
+               			<div id="description">
+                              <p style="color: lightgrey; text-align: justify;">A vast part of limousine services and chauffeur drive services that are carried out are simply transfer services or point to point services. Most notably you will see pick up of clients from the airport and going down town or perhaps onwards to the cruise ships (for more on our cruise ship work – please see here).<br><br>And are you going from meeting to meeting in around town or elsewhere, you do not need to worry about finding the fewer and fewer parking spaces available, but can be rest assured that we will help you keep your schedule and important appointments of your Road Show. (for more on Road Shows – see here).<br><br>We have a worldwide contact network of only the very best limousine service and chauffeur drive companies in the world.<br></p>
+                            </div>
+                            
+															 <a href="#booking" class="ui-btn ui-corner-all" data-theme="a" style="color:white" data-transition="slide">Book a car</a>
+                             <a href="#" class="ui-btn ui-corner-all" data-theme="a" data-rel="back" style="color:white" data-transition="slide">Go Back</a> 
+                            </div>  
+                           
+                           <div data-role="footer" data-theme="b" data-position="fixed">
+                            <div align="center" style="padding: 1%;">
+                                <a href="index.html" data-role="button" data-icon="myiconfb" data-iconpos="notext">fb</a>
+                                <a href="index.html" data-role="button" data-icon="myiconin" data-iconpos="notext">in</a>
+                                <p align="center">&copy; 2016 <a style="text-decoration:none;" href="http://www.cphbusiness.dk/" target="new">CPH Business</a>. All rights reserved.</p>
+                            </div>
+                         </div>
+                       </div><!-- /transfer services -->               
+         <!--sub pages SERVICES end-->
+          
+          <!-- CARS --> 
+           <div data-role="page" id="cars" style="background-color: black; font-family: 'raleway'">
+            <div data-role="panel" id="overlayPanel3" data-display="overlay" data-theme="b" data-position-fixed="true">
+                <ul data-role="listview">
+                    		<li data-role="list-divider">MENU</li>
+												<li><a href="#about" data-transition="slide">About</a></li>
+                        <li><a href="#services" data-transition="slide">Services</a></li>
+                        <li><a href="#cars" data-transition="slide">Cars</a></li>
+                        <li><a href="#booking" data-transition="slide">Booking</a></li>
+                        <li><a href="#news" data-transition="slide">News</a></li>
+												<li><a href="#contact" data-transition="slide">Contact</a></li>
+                        <li data-role="list-divider"></li>
+                     		<li data-icon="delete" data-rel="close"><a href="#" data-transition="slide">CLOSE</a></li>
+                 		</ul><!-- panel content ends here -->
+            </div><!-- /panel -->
+                       
+          <div data-role="header" data-theme="b" data-position="fixed">
+               <a href="#overlayPanel3" data-transition="slide" class="ui-btn ui-corner-all ui-icon-bars ui-shadow-icon ui-btn-icon-notext">Menu</a>
+                <h1>Copenhagen Limo</h1>
+                <a href="#home" data-transition="slide" data-role="button" data-icon="myiconh" data-iconpos="notext">home</a>
+   		  </div>
+          <div data-role="main" class="ui-content">
+                <img alt="food category image" src="img/cars1.png" width="100%">
+                <h1 style="text-align:center; font-family: 'Raleway'; color: lightgrey">Our cars</h1>
+                       <div class="choice_list">
+                         <ul data-role="listview" data-inset="true" data-theme="b"><li><a href="#car1" data-transition="slide"><h2 style="padding:10px 0 10px 0; text-align:center; font-family: 'raleway'">Mercedes Benz E-class</h2></a> </li>
+                      <li><a href="#car2" data-transition="slide"><h2 style="padding:10px 0 10px 0; text-align:center; font-family: 'raleway'">Mercedes Benz S-class</h2></a> </li>
+                      <li><a href="#car3" data-transition="slide"><h2 style="padding:10px 0 10px 0; text-align:center; font-family: 'raleway'">VW Multivan</h2></a> </li>
+											<li><a href="#car4" data-transition="slide"><h2 style="padding:10px 0 10px 0; text-align:center; font-family: 'raleway'">Mercedes Benz Viano</h2></a> </li>
+											<li><a href="#car5" data-transition="slide"><h2 style="padding:10px 0 10px 0; text-align:center; font-family: 'raleway'">Mercedes Sprinter Minibus</h2></a> </li>
+                    </ul>
+                   </div>
+                             <a href="#" class="ui-btn ui-corner-all" data-theme="a" data-rel="back" style="color:white">Go Back</a> 
+                            </div>  
+                           
+                           <div data-role="footer" data-theme="b" data-position="fixed">
+                            <div align="center" style="padding: 1%;">
+                                <a href="index.html" data-role="button" data-icon="myiconfb" data-iconpos="notext">fb</a>
+                                <a href="index.html" data-role="button" data-icon="myiconin" data-iconpos="notext">in</a>
+                                <p align="center">&copy; 2016 <a style="text-decoration:none;" href="http://www.cphbusiness.dk/" target="new">CPH Business</a>. All rights reserved.</p>
+                            </div>
+                         </div>
+                       </div><!--/CARS-->
+           
+    <!-- CAR 1 -->
+            <div data-role="page" id="car1" style="background-color: black; font-family: 'raleway'">
+                <div data-role="panel" id="overlayPanel20" data-display="overlay" data-theme="b">
+                          <ul data-role="listview">
+                    		<li data-role="list-divider">MENU</li>
+												<li><a href="#about" data-transition="slide">About</a></li>
+                        <li><a href="#services" data-transition="slide">Services</a></li>
+                        <li><a href="#cars" data-transition="slide">Cars</a></li>
+                        <li><a href="#booking" data-transition="slide">Booking</a></li>
+                        <li><a href="#news" data-transition="slide">News</a></li>
+												<li><a href="#contact" data-transition="slide">Contact</a></li>
+                        <li data-role="list-divider"></li>
+                     		<li data-icon="delete" data-rel="close"><a href="#" data-transition="slide">CLOSE</a></li>
+                 		</ul><!-- panel content ends here -->
+                    </div><!-- /panel -->
+
+                  <div data-role="header" data-theme="b" data-position="fixed">
+                       <a href="#overlayPanel20" data-transition="slide" class="ui-btn ui-corner-all ui-icon-bars ui-shadow-icon ui-btn-icon-notext">Menu</a>
+                        <h1>Copenhagen Limo</h1>
+                        <a href="#home" data-transition="slide" data-role="button" data-icon="myiconh" data-iconpos="notext">www</a>
+                  </div>
+
+                <div data-role="main" class="ui-content">
+                       <h1 style="text-align:center; color: white">Mercedes Benz E-class</h1><br>
+									<img width="100%" src="img/car11.png" alt="old company photo"/>
+									<img width="100%" src="img/car13.png" alt="old company photo"/>
+									<img width="100%" src="img/car12.png" alt="old company photo"/>
+									<div class="ui-grid-c"><br><br>
+											<div  class="ui-block-a"><img src="img/cars/s1.png" alt="car details" width="60%"></div>
+											<div class="ui-block-b"><img src="img/cars/l1.png" alt="car details" width="60%"></div>
+											<div class="ui-block-c"><img src="img/cars/air.png" alt="car details" width="60%"></div>
+											<div class="ui-block-d"><img src="img/cars/gpss.png" alt="car details" width="60%"></div>
+									</div> <br>
+									<div id="description">
+                              <p style="color: lightgrey; text-align: justify;">Smooth, comforting, secure and superior, the E-Class Saloon is the pinnacle of effortless driving. This saloons interior and exterior exemplifies sophistication and refinement to make you feel even more pampered on your journey. You will find the latest Mercedes technology on every aspect of the E-Class Saloon.<br></p>
+                      </div>
+									<a href="#booking" class="ui-btn ui-corner-all" data-theme="a" style="color:white" data-transition="slide">Book a car</a>
+                             <a href="#" class="ui-btn ui-corner-all" data-theme="a" data-rel="back" style="color:white" data-transition="slide">Go Back</a> 
+                            </div>  
+                           
+                           <div data-role="footer" data-theme="b" data-position="fixed">
+                            <div align="center" style="padding: 1%;">
+                                <a href="index.html" data-role="button" data-icon="myiconfb" data-iconpos="notext">fb</a>
+                                <a href="index.html" data-role="button" data-icon="myiconin" data-iconpos="notext">in</a>
+                                <p align="center">&copy; 2016 <a style="text-decoration:none;" href="http://www.cphbusiness.dk/" target="new">CPH Business</a>. All rights reserved.</p>
+                            </div>
+                         </div>
+                       </div> <!-- /CAR 1 -->
+                     
+      <!-- CAR 2 -->
+
+        <div data-role="page" id="car2" style="background-color: black;">
+            <div data-role="panel" id="overlayPanel21" data-display="overlay" data-theme="b">
+                      <ul data-role="listview">
+                    		<li data-role="list-divider">MENU</li>
+												<li><a href="#about" data-transition="slide">About</a></li>
+                        <li><a href="#services" data-transition="slide">Services</a></li>
+                        <li><a href="#cars" data-transition="slide">Cars</a></li>
+                        <li><a href="#booking" data-transition="slide">Booking</a></li>
+                        <li><a href="#news" data-transition="slide">News</a></li>
+												<li><a href="#contact" data-transition="slide">Contact</a></li>
+                        <li data-role="list-divider"></li>
+                     		<li data-icon="delete" data-rel="close"><a href="#" data-transition="slide">CLOSE</a></li>
+                 		</ul><!-- panel content ends here -->
+                </div><!-- /panel -->
+
+              <div data-role="header" data-theme="b" data-position="fixed">
+                   <a href="#overlayPanel21" data-transition="slide" class="ui-btn ui-corner-all ui-icon-bars ui-shadow-icon ui-btn-icon-notext">Menu</a>
+                    <h1>Copenhagen Limo</h1>
+                    <a href="#home" data-transition="slide" data-role="button" data-icon="myiconh" data-iconpos="notext">www</a>
+              </div>
+<div data-role="main" class="ui-content">
+                       <h1 style="text-align:center; color: white">Mercedes Benz S-class</h1><br>
+									<img width="100%" src="img/car21.png" alt="old company photo"/>
+									<img width="100%" src="img/car22.png" alt="old company photo"/>
+									<img width="100%" src="img/car23.png" alt="old company photo"/>
+									<div class="ui-grid-c"><br><br>
+											<div  class="ui-block-a"><img src="img/cars/s2.png" alt="car details" width="60%"></div>
+											<div class="ui-block-b"><img src="img/cars/l2.png" alt="car details" width="60%"></div>
+											<div class="ui-block-c"><img src="img/cars/air.png" alt="car details" width="60%"></div>
+											<div class="ui-block-d"><img src="img/cars/gpss.png" alt="car details" width="60%"></div>
+									</div> <br>
+									<div id="description">
+                              <p style="color: lightgrey; text-align: justify;">The S-Class is the ultimate luxury saloon. Repeatedly referred to as the "best car in the world" by motoring magazines, it is sumptuous and elegant while offering visionary technological innovations. Driving it feels like flying first class.<br></p>
+                      </div>
+									<a href="#booking" class="ui-btn ui-corner-all" data-theme="a" style="color:white" data-transition="slide">Book a car</a>
+                             <a href="#" class="ui-btn ui-corner-all" data-theme="a" data-rel="back" style="color:white" data-transition="slide">Go Back</a> 
+                            </div>  
+                           
+                           <div data-role="footer" data-theme="b" data-position="fixed">
+                            <div align="center" style="padding: 1%;">
+                                <a href="index.html" data-role="button" data-icon="myiconfb" data-iconpos="notext">fb</a>
+                                <a href="index.html" data-role="button" data-icon="myiconin" data-iconpos="notext">in</a>
+                                <p align="center">&copy; 2016 <a style="text-decoration:none;" href="http://www.cphbusiness.dk/" target="new">CPH Business</a>. All rights reserved.</p>
+                            </div>
+                         </div>
+                       </div>   
+            <!-- /CAR 2 -->           
+			
+			<!-- BOOKING -->
+           <div data-role="page" id="booking" style="background-color: black; font-family: 'raleway'">
+            <div data-role="panel" id="overlayPanel4" data-display="overlay" data-theme="b" data-position-fixed="true">
+                <ul data-role="listview">
+                    		<li data-role="list-divider">MENU</li>
+												<li><a href="#about" data-transition="slide">About</a></li>
+                        <li><a href="#services" data-transition="slide">Services</a></li>
+                        <li><a href="#cars" data-transition="slide">Cars</a></li>
+                        <li><a href="#booking" data-transition="slide">Booking</a></li>
+                        <li><a href="#news" data-transition="slide">News</a></li>
+												<li><a href="#contact" data-transition="slide">Contact</a></li>
+                        <li data-role="list-divider"></li>
+                     		<li data-icon="delete" data-rel="close"><a href="#" data-transition="slide">CLOSE</a></li>
+                 		</ul><!-- panel content ends here -->
+            </div><!-- /panel -->
+                       
+              <div data-role="header" data-theme="b" data-position="fixed">
+                   <a href="#overlayPanel4" data-transition="slide" class="ui-btn ui-corner-all ui-icon-bars ui-shadow-icon ui-btn-icon-notext">Menu</a>
+                    <h1>Copenhagen Limo</h1>
+                    <a href="#home" data-transition="slide" data-role="button" data-icon="myiconh" data-iconpos="notext">home</a>
+              </div>
+          
+      
+              <div data-role="main" class="ui-content">
+                <h1 style="text-align:center; font-family: 'Raleway'; color: lightgrey">Register here:</h1>
+                <form style=" opacity: 0.9;">
+									<input style="text-align: center;" type="text" name="username" id="text-1" value="" placeholder="Username">
+									<input style="text-align: center;" type="email" name="email" id="text-2" value="" placeholder="Your email">
+									<input style="text-align: center;" type="email" name="cemail" id="text-3" value="" placeholder="Confirm email">
+									<input style="text-align: center;" type="password" name="password" id="text-4" value="" placeholder="Password">
+									<input style="text-align: center;" type="password" name="cpassord" id="text-5" value="" placeholder="Confirm password"> <br>
+									<input style="text-align: center;" type="text" name="fname" id="text-6" value="" placeholder="First name">
+									<input style="text-align: center;" type="text" name="lname" id="text-7" value="" placeholder="Last name">	
+									<input style="text-align: center;" type="text" name="company" id="text-8" value="" placeholder="Company">
+									<input style="text-align: center;" data-theme="b" type="submit" name="company" id="text-8" value="Submit" placeholder="Submit"><br>
+								</form>       
+								
+								
+								
+                  <a href="#" class="ui-btn ui-corner-all" data-theme="b" data-rel="back" style="color: white; font-family: 'raleway'">Go Back</a>
+             </div><!--end content-->
+              <div data-role="footer" data-theme="b" data-position="fixed">
+                <div align="center" style="padding: 1%;">
+                <a href="index.html" data-role="button" data-icon="myiconfb" data-iconpos="notext">fb</a>
+                <a href="index.html" data-role="button" data-icon="myiconin" data-iconpos="notext">in</a>
+                <p align="center">&copy; 2016 <a style="text-decoration:none;" href="http://www.cphbusiness.dk/" target="new">CPH Business</a>. All rights reserved.</p>
+				</div>
+              </div>
+             
+           </div><!-- END BOOKING-->
+			
+			<!-- NEWS -->           
+           <div data-role="page" id="news" style="background-color: black;">
+            <div data-role="panel" id="overlayPanel5" data-display="overlay" data-theme="b" data-position-fixed="true">
+                 <ul data-role="listview">
+                    		<li data-role="list-divider">MENU</li>
+												<li><a href="#about" data-transition="slide">About</a></li>
+                        <li><a href="#services" data-transition="slide">Services</a></li>
+                        <li><a href="#cars" data-transition="slide">Cars</a></li>
+                        <li><a href="#booking" data-transition="slide">Booking</a></li>
+                        <li><a href="#news" data-transition="slide">News</a></li>
+												<li><a href="#contact" data-transition="slide">Contact</a></li>
+                        <li data-role="list-divider"></li>
+                     		<li data-icon="delete" data-rel="close"><a href="#" data-transition="slide">CLOSE</a></li>
+                 		</ul><!-- panel content ends here -->
+            </div><!-- /panel -->
+                       
+         <div data-role="header" data-theme="b" data-position="fixed">
+               <a href="#overlayPanel5" data-transition="slide" class="ui-btn ui-corner-all ui-icon-bars ui-shadow-icon ui-btn-icon-notext">Menu</a>
+                <h1 style="font-family: 'Raleway';">Copenhagen Limo</h1>
+                <a href="#home" data-transition="slide" data-role="button" data-icon="myiconh" data-iconpos="notext">home</a>
+   		  </div>
+          
+              <div data-role="main" class="ui-content">
+                <img alt="food category image" src="img/archives.png" width="100%">
+                <h1 style="text-align:center; font-family: 'Raleway'; color: lightgrey">News archive</h1>
+                       <div class="choice_list">
+                         <ul data-role="listview" data-inset="true" data-theme="b">
+                            <li><a href="#" data-transition="slide"><h2 style="padding:10px 0 10px 0; text-align:center; font-family: 'raleway'">Sightseeing tour suggestions</h2></a></li>
+                             <li><a href="#" data-transition="slide"><h2 style="padding:10px 0 10px 0; text-align:center; font-family: 'raleway'" >Countdown to Copenhagen</h2></a></li>
+                             <li><a href="#" data-transition="slide"><h2 style="padding:10px 0 10px 0; text-align:center; font-family: 'raleway'" >Archive</h2></a></li>
+                            </ul>
+                        </div>
+                  <a href="#" class="ui-btn ui-corner-all" data-theme="b" data-rel="back" style="color: white; font-family: 'raleway'">Go Back</a>
+             </div><!--end content-->
+              <div data-role="footer" data-theme="b" data-position="fixed">
+                <div align="center" style="padding: 1%;">
+                <a href="index.html" data-role="button" data-icon="myiconfb" data-iconpos="notext">fb</a>
+                <a href="index.html" data-role="button" data-icon="myiconin" data-iconpos="notext">in</a>
+                <p align="center">&copy; 2016 <a style="text-decoration:none;" href="http://www.cphbusiness.dk/" target="new">CPH Business</a>. All rights reserved.</p>
+				</div>
+              </div>
+             
+           </div><!-- /NEWS-->
+			
+			
+		<!-- CONTACT -->           
+           <div data-role="page" id="contact" style="background-color: black; font-family: 'raleway'">
+            <div data-role="panel" id="overlayPanel6" data-display="overlay" data-theme="b" data-position-fixed="true">
+                 <ul data-role="listview">
+                    		<li data-role="list-divider">MENU</li>
+												<li><a href="#about" data-transition="slide">About</a></li>
+                        <li><a href="#services" data-transition="slide">Services</a></li>
+                        <li><a href="#cars" data-transition="slide">Cars</a></li>
+                        <li><a href="#booking" data-transition="slide">Booking</a></li>
+                        <li><a href="#news" data-transition="slide">News</a></li>
+												<li><a href="#contact" data-transition="slide">Contact</a></li>
+                        <li data-role="list-divider"></li>
+                     		<li data-icon="delete" data-rel="close"><a href="#" data-transition="slide">CLOSE</a></li>
+                 		</ul><!-- panel content ends here -->
+            </div><!-- /panel -->
+                       
+          <div data-role="header" data-theme="b" data-position="fixed">
+               <a href="#overlayPanel6" data-transition="slide" class="ui-btn ui-corner-all ui-icon-bars ui-shadow-icon ui-btn-icon-notext">Menu</a>
+                <h1>Copenhagen Limo</h1>
+                <a href="#home" data-transition="slide" data-role="button" data-icon="myiconh" data-iconpos="notext">home</a>
+   		  </div>
+          
+        
+                <div data-role="main" class="ui-content">
+                  <h1 style="text-align:center; color: lightgrey">Find us here</h1>
+									<img alt="location map" src="img/map.png" width="100%">
+								 <h1 style="text-align:center; color: white">Contact details:</h1>
+								<div id="description">
+									<p style="color: lightgrey; text-align: justify; padding-left:35%">Bådehavnsgade 40<br>2450 København SV<br>Tel.: +45 70 260 601<br>Fax.: +45 33 150 634</p>
+									</div>
+									<div class="ui-grid-c" style="width: 40%; padding-left: 30%">
+											<div  class="ui-block-a"><img src="img/social/fb.png" alt="car details" width="60%"></div>
+											<div class="ui-block-b"><img src="img/social/in.png" alt="car details" width="60%"></div>
+											<div class="ui-block-c"><img src="img/social/g.png" alt="car details" width="60%"></div>
+											<div class="ui-block-d"><img src="img/social/lin.png" alt="car details" width="60%"></div>
+									</div> 
+
+               
+                            
+							
+                             <a href="#" class="ui-btn ui-corner-all" data-theme="a" data-rel="back" style="color:lightgrey">Go Back</a> 
+                            </div>  
+                           
+                           <div data-role="footer" data-theme="b" data-position="fixed">
+                            <div align="center" style="padding: 1%;">
+                                <a href="index.html" data-role="button" data-icon="myiconfb" data-iconpos="notext">fb</a>
+                                <a href="index.html" data-role="button" data-icon="myiconin" data-iconpos="notext">in</a>
+                                <p align="center">&copy; 2016 <a style="text-decoration:none;" href="http://www.cphbusiness.dk/" target="new">CPH Business</a>. All rights reserved.</p>
+                            </div>
+                         </div>
+                       </div><!-- /CONTACT-->
+           
+           
+           
+ 
+       </body>
+</html>

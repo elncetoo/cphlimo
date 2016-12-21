@@ -1,0 +1,49 @@
+
+.ui-icon-myiconh:after {
+	background-image: url(../img/home.png);
+	background-size: 30px 30px;
+}
+
+.ui-icon-myiconfb:after {
+	background-image: url(../img/social/fb.png);
+	background-size: 30px 30px;
+}
+
+.ui-icon-myiconin:after {
+	background-image: url(../img/social/in.png);
+	background-size: 30px 30px;
+}
+
+.ui-icon-myicong:after {
+	background-image: url(../img/social/g.png);
+	background-size: 30px 30px;
+}
+
+.ui-icon-myicontw:after {
+	background-image: url(../img/social/twit.png);
+	background-size: 30px 30px;
+}
+
+
+.ui-icon-myiconwww:after {
+	background-image: url(../img/www.png);
+	background-size: 30px 30px;
+}
+
+#map_wrapper {
+    height: 350px;
+}
+
+#map_canvas {
+    width: 100%;
+    height: 90%;
+}
+
+a {
+	background-image: url(../img/link-img.jpg)
+}
+
+#mylist li a, #mylist li.ui-li-divider {
+    text-align: center !important;
+}
+

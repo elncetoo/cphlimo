@@ -1,0 +1,8 @@
+[08-Dec-2016 14:01:57 Europe/Sofia] PHP Parse error:  syntax error, unexpected '}', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/creartiv/public_html/cphlimo/form_handler.php on line 91
+[08-Dec-2016 14:04:18 Europe/Sofia] PHP Parse error:  syntax error, unexpected '}', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/creartiv/public_html/cphlimo/form_handler.php on line 91
+[08-Dec-2016 14:04:25 Europe/Sofia] PHP Parse error:  syntax error, unexpected '}', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/creartiv/public_html/cphlimo/form_handler.php on line 91
+[18-Dec-2016 23:36:20 Europe/Sofia] PHP Warning:  include(assets/inc/menu.php): failed to open stream: No such file or directory in /home/creartiv/public_html/cphlimo/about.php on line 22
+[18-Dec-2016 23:36:20 Europe/Sofia] PHP Warning:  include(): Failed opening 'assets/inc/menu.php' for inclusion (include_path='.:/usr/local/php7.0/lib/php') in /home/creartiv/public_html/cphlimo/about.php on line 22
+[18-Dec-2016 23:36:20 Europe/Sofia] PHP Warning:  require(assets/inc/footer.php): failed to open stream: No such file or directory in /home/creartiv/public_html/cphlimo/about.php on line 169
+[18-Dec-2016 23:36:20 Europe/Sofia] PHP Fatal error:  require(): Failed opening required 'assets/inc/footer.php' (include_path='.:/usr/local/php7.0/lib/php') in /home/creartiv/public_html/cphlimo/about.php on line 169
+[20-Dec-2016 20:32:14 Europe/Sofia] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/creartiv/public_html/cphlimo/insert.php on line 3

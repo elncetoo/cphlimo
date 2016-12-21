@@ -4,10 +4,9 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-		<meta name="description" content="Copenhagen Limousine Service web page">
-		<meta name="author" content="">
-		<link rel="icon" href="favicon.ico">
+		<meta name="description" content="Copenhagen Limousine Service Company. Great services for business people, special occasions, crew transportation, celebrities etc worldwide.">
+    <meta name="keywords" content="travel, business, mercedes-benz, e-class, s-class, vw multivan, mercedes benz viano, mercedes sprinter minibus, rent a car, transport, party, copenhagen, limousine, transport services, private chauffeurs, worldwide">
+    <link rel="icon" href="favicon.ico">
 		<title>Copenhagen Limousine Service</title>
 		<!-- Bootstrap core CSS -->
 		<link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -45,10 +44,10 @@
          <div class="container">
       <div class="row">
 
-        <article class="article" style="width: 100%">
+        <article class="article">
           <iframe width="100%" height="700px" src="https://www.youtube.com/embed/SXDlIDW911M" frameborder="0" allowfullscreen></iframe>
           
-        </article>
+          </article>
 
         <div class="col-lg-11 text-left" style="margin-left: 50px;">
                   <div class="section-title"><br><br>

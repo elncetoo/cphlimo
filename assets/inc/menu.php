@@ -34,11 +34,11 @@ $curpage = basename ($_SERVER['PHP_SELF']);
             
             <li <?php if($curpage == 'cars.php') {echo 'class="active"'; } ?>><a href="cars.php">Cars</a>
             	 <ul>
-                    <li><a href="#">Mercedes Benz E-class</a></li>
-                    <li><a href="#">Mercedes Benz S-class</a></li>
-                    <li><a href="#">VW Multivan</a></li>
-                    <li><a href="#">Mercedes Benz Viano</a></li>
-                    <li><a href="#">Mercedes Sprinter Minibus</a></li>
+                    <li><a href="cars.php">Mercedes Benz E-class</a></li>
+                    <li><a href="cars.php">Mercedes Benz S-class</a></li>
+                    <li><a href="cars.php">VW Multivan</a></li>
+                    <li><a href="cars.php">Mercedes Benz Viano</a></li>
+                    <li><a href="cars.php">Mercedes Sprinter Minibus</a></li>
             	</ul>
             </li>
             

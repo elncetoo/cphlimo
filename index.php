@@ -4,9 +4,9 @@
     <meta charset="utf-8">
      <title>Copenhagen Limousine Service</title>
       <meta name="viewport" content="width=device-width, initial-scale=1"> 
-      <meta name="description" content="Copenhagen Limousine Service web page">
-    
-        <!-- Latest compiled and minified CSS -->
+      <meta name="description" content="Copenhagen Limousine Service Company. Great services for business people, special occasions, crew transportation, celebrities etc worldwide.">
+      <meta name="keywords" content="travel, business, mercedes-benz, e-class, s-class, vw multivan, mercedes benz viano, mercedes sprinter minibus, rent a car, transport, party, copenhagen, limousine, transport services, private chauffeurs, worldwide">
+    <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
         <link href="assets/css/style.css" rel="stylesheet" type="text/css" >
